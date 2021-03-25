@@ -3,9 +3,9 @@ import React from 'react';
 import {NavigationContainer} from '@react-navigation/native';
 import {createStackNavigator} from '@react-navigation/stack';
 
-//import Congratulations from './screens/Congratulations';
-//import Exercises from './screens/Exercises';
-//import LevelSelection from './screens/LevelSelection';
+import Congratulations from './screens/Congratulations';
+import Level1 from './screens/Exercises/Level1';
+import LevelSelection from './screens/LevelSelection';
 //import LoginOrRegister from './screens/LoginOrRegister';
 import Main from './screens/Main';
 import ScreenAbout from './screens/ScreenAbout';
@@ -36,8 +36,32 @@ function routes() {
           name="Main"
           component={Main}
         />
+
+        <Stack.Screen
+          name="LevelSelection"
+          component={LevelSelection}
+          options={{title: 'Escolha de níveis'}}
+        />
+
+        <Stack.Screen
+          options={{
+            title: 'Nível 1',
+            headerStyle: {
+              elevation: 0,
+              backgroundColor: colors.colorPrimary,
+            },
+          }}
+          name="Level1"
+          component={Level1}
+        />
         
-        
+        <Stack.Screen
+          options={{
+            headerShown: false,
+          }}
+          name="Congratulations"
+          component={Congratulations}
+        />
         
         <Stack.Screen
           options={{headerShown: false}}
