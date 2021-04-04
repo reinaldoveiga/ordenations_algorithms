@@ -10,9 +10,9 @@ import {ProgressBar} from 'react-native-paper';
 
 import AsyncStorage from '@react-native-community/async-storage';
 import {useRoute} from '@react-navigation/native';
-//import Lottie from 'lottie-react-native';
+import Lottie from 'lottie-react-native';
 
-//import animation from '../../assets/animations/CheckedDone.json';
+import animation from '../../assets/animations/CheckedDone.json';
 import {colors} from '../../styles';
 import styles from './styles';
 

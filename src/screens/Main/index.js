@@ -9,7 +9,7 @@ function Main({navigation}) {
   return (
     <SafeAreaView style={styles.container}>
       <Image source={logo} style={styles.logo} />
-      <Text style={styles.subTitle}>Algoritmos de Ordenação</Text>
+      <Text style={styles.subTitle}>Ordenação</Text>
       <CustomButton
         style={styles.buttons}
         text="Iniciar"

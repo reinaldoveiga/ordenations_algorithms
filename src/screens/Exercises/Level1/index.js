@@ -20,8 +20,20 @@ const Level1 = ({ navigation }) => {
         enableScroll: true,
       },
 
+
+
       {
+        type: 'INTRO',
         id: 2,
+        text:
+          'Classificar listas nos ajuda a encontrar as coisas rapidamente, e também facilita a identificação do maior e do menor valor de cada lista.',
+        img: require('../../../assets/images/Level1/books.png'),
+        enableScroll: true,
+      },
+
+
+      {
+        id: 3,
         type: 'QUEST',
         enable: false,
         invisibleRow: -1,
@@ -45,14 +57,8 @@ const Level1 = ({ navigation }) => {
         ],
       },
 
-      {
-        type: 'INTRO',
-        id: 3,
-        text:
-          'Classificar listas nos ajuda a encontrar as coisas rapidamente, e também facilita a identificação do maior e do menor valor de cada lista.',
-        img: require('../../../assets/images/Level1/books.png'),
-        enableScroll: true,
-      },
+
+
     ]
   };
 

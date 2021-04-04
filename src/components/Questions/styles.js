@@ -1,20 +1,36 @@
 import {StyleSheet} from 'react-native';
 
-import {metrics} from '../../styles';
-
-const HEIGHT_PORCENTAGE = 0.3;
-const WIDTH_PORCENTAGE = 0.5;
-
 const styles = StyleSheet.create({
-  container: {
-    flex: 0.9,
+  trueOrFalseButtons: {
+    height: '50%',
+    justifyContent: 'center',
     alignItems: 'center',
   },
-  logo: {
-    resizeMode: 'contain',
-    width: metrics.screenWidth * WIDTH_PORCENTAGE,
-    height: metrics.screenHeight * HEIGHT_PORCENTAGE,
+  correspondenceContainer: {
+    height: '50%',
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  correspondenceListContent: {
+    flex: 1,
+    flexDirection: 'row',
+    width: '90%',
+    justifyContent: 'space-evenly',
+    alignItems: 'center',
+  },
+  correspondenceListText: {fontFamily: 'Poppins-Bold', margin: 10},
+  correspondenceSecondListView: {
+    flexDirection: 'row',
+    justifyContent: 'flex-end',
+    alignItems: 'center',
+  },
+  descriptive: {
+    flex: 1,
+    justifyContent: 'space-between',
+    alignItems: 'center',
+  },
+  subDescriptive: {
+    flex: 1,
   },
 });
-
 export default styles;

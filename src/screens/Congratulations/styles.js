@@ -1,58 +1,44 @@
 import {StyleSheet} from 'react-native';
 
-import {colors, fonts, metrics } from '../../styles';
+import {colors, fonts, metrics} from '../../styles';
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: 'rgba(0, 0, 0, 0.8)',
-    alignItems: "center"
+    justifyContent: 'space-around',
   },
   content: {
     flex: 1,
     width: metrics.screenWidth,
-    marginTop: metrics.doubleBaseMargin,
+    height: metrics.screenHeight,
+    marginTop: 50,
   },
   textTop: {
+    flex: 4,
     textAlign: 'center',
-    color: colors.colorTextSecondary,
-    fontSize: fonts.bigger * 1.6,
+    color: colors.textColorSecondary,
+    fontSize: metrics.screenWidth * 0.14,
+    fontFamily: 'Poppins-Bold',
   },
   textEnd: {
+    flex: 1,
     textAlign: 'center',
-    color: colors.colorTextSecondary,
-    fontSize: fonts.bigger
+    color: colors.textColorSecondary,
+    fontSize: metrics.screenWidth * 0.09,
+    fontFamily: 'Poppins-Bold',
   },
   textButton: {
-    color: colors.colorPrimary,
-    fontSize: fonts.medium
+    color: colors.colorBackground,
+    textDecorationLine: 'underline',
+    fontSize: fonts.title,
+    fontFamily: 'Poppins-Bold',
   },
-  buttonAlternative: {
-    backgroundColor: colors.colorTextSecondary,
+  buttonAltenative: {
     alignItems: 'center',
-    justifyContent: "center",
-    height: metrics.screenHeight * 0.07,
-    width: metrics.screenWidth * 0.4,
-    borderRadius: metrics.baseRadius,
-    marginBottom: metrics.doubleBaseMargin,
+    marginTop: metrics.halfMargin,
+    marginBottom: metrics.halfMargin,
   },
-  information: {
-    flexDirection: 'row',
-    margin: metrics.doubleBaseMargin,
-    width: metrics.screenWidth * 0.9,
-  },
-  textInformation: {
-    flex: 1,
-    textAlign: 'left',
-    color: colors.colorTextSecondary,
-    fontSize: fonts.medium,
-    marginLeft: metrics.baseMargin
-  },
-  animation: {
-    width: 160,
-    height: 160,
-    alignSelf: 'center'
-  }
-})
+});
 
 export default styles;

@@ -4,7 +4,7 @@ import {View, SafeAreaView, ScrollView, Alert, StatusBar} from 'react-native';
 import AsyncStorage from '@react-native-community/async-storage';
 import {useFocusEffect} from '@react-navigation/native';
 
-//import data from '../../assets/data.json';
+import data from '../../assets/data.json';
 import level1 from '../../assets/images/levelSelection/level1.png';
 import level2 from '../../assets/images/levelSelection/level2.png';
 //import level3 from '../../assets/images/levelSelection/level3.png';
@@ -14,7 +14,7 @@ import level2 from '../../assets/images/levelSelection/level2.png';
 //import level7 from '../../assets/images/levelSelection/level7.png';
 //import level8 from '../../assets/images/levelSelection/level8.png';
 import CardLevel from '../../components/CardLevel';
-import {colors} from '../../styles';
+//import {colors} from '../../styles';
 import styles from './styles';
 
 function LevelSelection({navigation}) {
@@ -58,20 +58,15 @@ function LevelSelection({navigation}) {
   );
 
   return (
-    <SafeAreaView style={styles.container}>
-       <StatusBar
-        barStyle="light-content"
-        backgroundColor={colors.colorPrimary}
-      />
-      
-      
+    <SafeAreaView style={styles.container}>     
       <ScrollView>
         <View style={styles.boxContainer}>
+          
           <CardLevel
             level="1"
             image={level1}
             available
-            onPress={() => navigation.navigate('Level1')}
+            onPress={() => navigation.navigate('Exercises', {data: data[0]})}
           />
 
           <CardLevel
