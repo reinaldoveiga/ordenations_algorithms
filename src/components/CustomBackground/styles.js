@@ -39,7 +39,7 @@ const styles = StyleSheet.create({
   textCont: {
     alignSelf: 'flex-end',
     color: colors.textColorPrimary,
-    padding: metrics.basePadding,
+    padding: 1,
   },
 });
 

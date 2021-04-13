@@ -18,16 +18,18 @@ import styles from './styles';
 
 const Congratulations = props => {
   const {navigation} = props;
-  const {level} = useRoute().params;
+  const {level, content} = useRoute().params;
 
   const navigateScreen = async () => {
     await AsyncStorage.setItem(`level${level + 1}`, 'true');
     navigation.navigate('LevelSelection');
   };
 
-  useEffect(() => {
-    setTimeout(navigateScreen, 3000);
-  }, []);
+
+
+  //useEffect(() => {
+    //setTimeout(navigateScreen, 3000);
+  //}, []);
 
   return (
     <SafeAreaView style={styles.container}>
@@ -37,8 +39,13 @@ const Congratulations = props => {
       />
       <View style={styles.content}>
         <Text style={styles.textTop}>Parabéns!!!</Text>
+        
         <Lottie source={animation} autoPlay loop />
+        <Text style={styles.textAlternative}>{content}</Text>
+
         <Text style={styles.textEnd}>Você completou o nível {level}</Text>
+        
+        
         <TouchableOpacity
           style={styles.buttonAltenative}
           onPress={navigateScreen}>

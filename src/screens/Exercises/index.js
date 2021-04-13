@@ -12,7 +12,7 @@ import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
 
 import {useRoute} from '@react-navigation/native';
 
-//import CardGroup from '../../components/CardGroup';
+
 import CustomBackground from '../../components/CustomBackground';
 import {
   Explanation,
@@ -79,7 +79,7 @@ export default function Exercises({navigation}) {
 
   useEffect(() => {
     if (finishLevel) {
-      navigation.navigate('Congratulations', {level: exercise.level});
+      navigation.navigate('Congratulations', {level: exercise.level, content: [exercise.content]});//, content: exercise.content
     } else {
       setQuestion(response.questions[step]);
     }
@@ -92,15 +92,7 @@ export default function Exercises({navigation}) {
     return null;
   };
 
-  //const showImageOurCardGroup = () => {
-   // if (question.image) {
-     // return showImage(question.image.url);
-  //  }
-    //if (exercise.showCards) {
-     // return <CardGroup />;
-    //}
-    //return null;
-  //};
+
 
   const viewOfContent = () => {
     const content = exercise.introduction.map(item => (
@@ -110,12 +102,12 @@ export default function Exercises({navigation}) {
       </View>
     ));
 
-   // content.push(
-     // <View style={styles.statementImageConteiner}>
-      //  <Text style={styles.contentText}>{question.statement}</Text>
-      //  {showImageOurCardGroup()}
-     // </View>,
-    //);
+    content.push(
+      <View style={styles.statementImageConteiner}>
+        <Text style={styles.contentText}>{question.statement}</Text>
+        
+      </View>,
+    );
 
     return content;
   };
@@ -134,10 +126,12 @@ export default function Exercises({navigation}) {
       // case 'CORRESPONDENCE':
       //  return CORRESPONDENCE;
 
-     
+
+      
 
       case 'EXPLANATION':
         return <Explanation step={step} setSteps={setSteps} />;
+     
 
       default:
         return null;

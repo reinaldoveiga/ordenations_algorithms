@@ -17,9 +17,9 @@
               "text": "Para encontrar as coisas rapidamente"
             },
             {
-              "correct": true,
+              "correct": false,
               "_id": "5ea72647127b53001e9192bb",
-              "text": "Para identificar facilmente os valores extremos"
+              "text": "Para deixar as coisas desorganizadas"
             }
            
           ],
@@ -49,8 +49,9 @@
         }
       ],
       "showCards": true,
-      "tips": "1. Pressione o cartão para virá-lo;2. A soma dos pontos dos cartões representam o número decimal;3. Os números binários é representado pela sequência de zeros e uns;4. Responda todas as perguntas corretamente para completar a tarefa.",
+      "tips": "1. Responda todas as perguntas corretamente para completar a tarefa.",
       "level": 1,
+      "content": "Entende a importância de ordenar informações",
       "__v": 0
     },
     {

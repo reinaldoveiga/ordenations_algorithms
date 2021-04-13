@@ -22,10 +22,17 @@ const styles = StyleSheet.create({
     fontFamily: 'Poppins-Bold',
   },
   textEnd: {
-    flex: 1,
+    flex: 3,
     textAlign: 'center',
     color: colors.textColorSecondary,
     fontSize: metrics.screenWidth * 0.09,
+    fontFamily: 'Poppins-Bold',
+  },
+  textAlternative: {
+    flex: 12,
+    textAlign: 'center',
+    color: colors.textColorSecondary,
+    fontSize: metrics.screenWidth * 0.05,
     fontFamily: 'Poppins-Bold',
   },
   textButton: {
@@ -38,7 +45,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     marginTop: metrics.halfMargin,
     marginBottom: metrics.halfMargin,
-  },
+  }
 });
 
 export default styles;
