@@ -6,14 +6,17 @@ const styles = StyleSheet.create({
   container: {
     ...general.defaultContainer,
     height: metrics.screenHeight,
+    backgroundColor: colors.colorPrimary,
   },
   halfView: {
     flex: 1,
+    
   },
   halfViewKeyBoard: {
-    flex: 1,
+    flex: 1.22,
     justifyContent: 'center',
     alignItems: 'center',
+     //
   },
   info: {
     marginTop: metrics.baseMargin,
@@ -30,7 +33,9 @@ const styles = StyleSheet.create({
     resizeMode: 'contain',
     justifyContent: 'flex-end',
     width: Math.round((metrics.screenWidth * 14) / 16),
-    height: metrics.screenHeight * 0.12,
+    height: metrics.screenHeight * 0.17,
+    marginTop: 30,
+
   },
   icon: {
     color: colors.colorPrimary,
@@ -41,6 +46,20 @@ const styles = StyleSheet.create({
     marginRight: metrics.baseMargin,
     height: metrics.screenHeight / 4,
     textAlign: 'center',
+    color: colors.colorBackground,
+  },
+  contentContainerStyle: {//
+    justifyContent: 'center',
+    alignItems: 'center',
+    margin: metrics.baseMargin,
+    color: colors.colorBackground,
+  },
+  textAnswer: {//
+    fontSize: 17,
+    textAlign: 'center',
+    marginTop: metrics.baseMargin * 4,
+    color: colors.colorPrimaryDark,
+    
   },
 });
 

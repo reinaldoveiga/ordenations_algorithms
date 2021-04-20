@@ -7,6 +7,11 @@ import {
   Platform,
   ScrollView,
 } from 'react-native';
+
+
+import BoxAlternative from "../../components/BoxAlternative";
+
+
 import {ProgressBar} from 'react-native-paper';
 import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
 
@@ -112,16 +117,16 @@ export default function Exercises({navigation}) {
     return content;
   };
 
-  function chooseQuestionRender() {
-    switch (question.type) {
-      case 'MULTIPLECHOICE':
-        return (
-          <MultipleChoice
-            step={step}
-            setSteps={setSteps}
-            alternatives={question.alternatives}
-          />
-        );
+  //function chooseQuestionRender() {
+   // switch (question.type) {
+    //  case 'MULTIPLECHOICE':
+     //   return (
+      //    <MultipleChoice
+       //     step={step}
+        //    setSteps={setSteps}
+            
+         // />
+        //);
 
       // case 'CORRESPONDENCE':
       //  return CORRESPONDENCE;
@@ -129,14 +134,14 @@ export default function Exercises({navigation}) {
 
       
 
-      case 'EXPLANATION':
-        return <Explanation step={step} setSteps={setSteps} />;
+      //case 'EXPLANATION':
+      //  return <Explanation step={step} setSteps={setSteps} />;
      
 
-      default:
-        return null;
-    }
-  }
+     // default:
+       // return null;
+   // }
+ // }
 
   return (
     <View>
@@ -156,6 +161,7 @@ export default function Exercises({navigation}) {
               isLastPage={value => setShowAnswerOptions(value)}
             />
           </View>
+          
           <KeyboardAvoidingView
             style={styles.halfViewKeyBoard}
             enabled
@@ -164,16 +170,36 @@ export default function Exercises({navigation}) {
               android: null,
             })}
             keyboardVerticalOffset={-145}>
+            
             {showAnswerOptions ? (
-              chooseQuestionRender()
-            ) : (
+              
+            
+            <BoxAlternative
+            alternativesContent={(
+              question.type === 'MULTIPLECHOICE' ?  (
+                <>
+                  <Text style={styles.textAnswer}>Selecione a opção correta</Text>
+                  <View style={styles.contentContainerStyle}>
+                    <MultipleChoice
+                      step={step}
+                      setSteps={setSteps}
+                      alternatives={question.alternatives}
+                      
+                />
+                  </View>
+                </>
+     ) : null
+    )}
+              
+              />
+              ) : (
               <Text style={styles.defaultText}>
-                Leia atentamente cada questão para que possa responder o que é
-                solicitado em cada exercício. Arraste a carta para o lado e verá
+                Leia atentamente cada questão. Em seguida, arraste a carta para o lado e verá
                 as próximas instruções.
               </Text>
             )}
           </KeyboardAvoidingView>
+
         </View>
       </ScrollView>
     </View>

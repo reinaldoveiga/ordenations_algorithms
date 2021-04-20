@@ -12,7 +12,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     width: metrics.screenWidth,
   },
-  expandle: {height: metrics.screenHeight * 0.43, backgroundColor: colors.colorTextSecondary},
+  expandle: {height: metrics.screenHeight * 0.55, backgroundColor: colors.colorBackground},
   hide: {height: metrics.screenHeight * 0.1},
   defaultText: {
     marginLeft: metrics.baseMargin,

@@ -29,7 +29,7 @@ const styles = StyleSheet.create({
     fontFamily: 'Poppins-Bold',
   },
   textAlternative: {
-    flex: 12,
+    flex: 10,
     textAlign: 'center',
     color: colors.textColorSecondary,
     fontSize: metrics.screenWidth * 0.05,
