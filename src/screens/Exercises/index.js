@@ -47,8 +47,10 @@ export default function Exercises({navigation}) {
   const imagens = {
     l3q1: require('../../assets/images/Level1/books.png'),
     
-
-    //l4q00: require('../../assets/images/level2/l4q00.png'),
+    l4q1: require('../../assets/images/Level2/tela2-n2.png'),
+    l4q2: require('../../assets/images/Level2/tela3-n2.png'),
+    l4q3: require('../../assets/images/Level2/tela4-n2.png'),
+    l4q4: require('../../assets/images/Level2/tela5-n2.png'),
 
     //l5q1: require('../../assets/images/level5/l5q1.png'),
     //l5q2: require('../../assets/images/level5/l5q2.png'),
@@ -110,6 +112,7 @@ export default function Exercises({navigation}) {
     content.push(
       <View style={styles.statementImageConteiner}>
         <Text style={styles.contentText}>{question.statement}</Text>
+        {showImage(question.image.url)}
         
       </View>,
     );

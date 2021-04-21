@@ -58,7 +58,7 @@ const styles = StyleSheet.create({
     fontSize: 17,
     textAlign: 'center',
     marginTop: metrics.baseMargin * 4,
-    color: colors.colorPrimaryDark,
+    color: colors.textColorPrimary,
     
   },
 });

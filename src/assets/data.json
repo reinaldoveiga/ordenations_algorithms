@@ -2,12 +2,16 @@
     {
       "module": {
         "id": 1,
-        "name": "Binary Numbers"
+        "name": "Ordenation Algorithms"
       },
       "questions": [
         {
           "_id": "5ea72647127b53001e9192b9",
           "statement": "Frequentemente, os computadores devem ordenar listas de coisas. Por que é importante colocar as coisas em ordem?",
+          "image": {
+            "name": null,
+            "url": null
+          },
           "type": "MULTIPLECHOICE",
           "level": 1,
           "alternatives": [
@@ -54,37 +58,50 @@
       "content": "Entende a importância de ordenar informações",
       "__v": 0
     },
+
+
+
     {
       "module": {
         "id": 1,
-        "name": "Binary Numbers"
+        "name": "Ordenation Algorithms"
       },
       "questions": [
         {
           "_id": "5ea72648127b53001e9192c8",
-          "statement": "A sequência em binário 10011 corresponde a que número decimal?",
+          "statement": "Observando as cartas abaixo...Onde você colocaria a carta 2 ?",
+          "image": {
+            "_id": "5ea7264d127b53001e9192ed",
+            "name": "tela4-n2-1588012621515.png",
+            "url": "l4q3"
+          },
           "type": "MULTIPLECHOICE",
           "level": 2,
           "alternatives": [
             {
-              "correct": true,
+              "correct": false,
               "_id": "5ea72648127b53001e9192c9",
-              "text": "19"
+              "text": "A"
             },
             {
-              "correct": false,
+              "correct": true,
               "_id": "5ea72648127b53001e9192ca",
-              "text": "5"
+              "text": "B"
             },
             {
               "correct": false,
               "_id": "5ea72648127b53001e9192cb",
-              "text": "13"
+              "text": "C"
             },
             {
               "correct": false,
               "_id": "5ea72648127b53001e9192cc",
-              "text": "7"
+              "text": "D"
+            },
+            {
+              "correct": false,
+              "_id": "5ea72648127b53001e9192cc",
+              "text": "E"
             }
           ],
           "createdAt": "2020-04-27T18:36:56.583Z",
@@ -93,78 +110,81 @@
         },
         {
           "_id": "5ea72648127b53001e9192cd",
-          "statement": "Os numeros 3 e 12 correspondem respectivamente à: ",
+          "statement": "Observando as cartas abaixo...Onde você colocaria a carta 6 ?",
+          "image": {
+            "_id": "5ea7264d127b53001e9192ed",
+            "name": "tela4-n2-1588012621515.png",
+            "url": "l4q4"
+          },
           "type": "MULTIPLECHOICE",
           "level": 2,
           "alternatives": [
             {
               "correct": false,
               "_id": "5ea72648127b53001e9192ce",
-              "text": "01101 e 00011"
+              "text": "A"
             },
             {
               "correct": false,
               "_id": "5ea72648127b53001e9192cf",
-              "text": "10011 e 01101"
+              "text": "B"
             },
             {
               "correct": false,
               "_id": "5ea72648127b53001e9192d0",
-              "text": "01001 e 10001"
+              "text": "C"
             },
             {
               "correct": true,
               "_id": "5ea72648127b53001e9192d1",
-              "text": "00011 e 01100"
+              "text": "D"
+            },
+            {
+              "correct": true,
+              "_id": "5ea72648127b53001e9192d1",
+              "text": "E"
             }
           ],
           "createdAt": "2020-04-27T18:36:56.941Z",
           "updatedAt": "2020-04-27T18:36:56.941Z",
           "__v": 0
-        },
-        {
-          "_id": "5ea72649127b53001e9192d2",
-          "statement": "Qual é o MAIOR número decimal que você pode formar utilizando esses cinco cartões?",
-          "type": "NUMERIC",
-          "level": 2,
-          "numeric_answer": 31,
-          "createdAt": "2020-04-27T18:36:57.140Z",
-          "updatedAt": "2020-04-27T18:36:57.140Z",
-          "__v": 0
-        },
-        {
-          "_id": "5ea72649127b53001e9192d3",
-          "statement": "Ainda utilizando os cartões, qual o MENOR número decimal que você pode formar?",
-          "type": "NUMERIC",
-          "level": 2,
-          "numeric_answer": 0,
-          "createdAt": "2020-04-27T18:36:57.444Z",
-          "updatedAt": "2020-04-27T18:36:57.444Z",
-          "__v": 0
         }
       ],
       "_id": "5ea72656127b53001e919337",
-      "title": "Números Binários",
+      "title": "Ordenação por Inserção",
       "description": "Antes de iniciar a atividade, pode ser útil demonstrar os fundamentos ao grupo. Para esta atividade, são necessários cinco cartões, com pontos marcados de um lado e nada sobre o verso.",
       "introduction": [
         {
-          "text": "Então, você achava que sabia contar? Bem, aqui está uma nova forma de fazer isso!  Sabia que os computadores utilizam apenas zeros e uns? Tudo o que você vê ou ouve no computador - palavras, imagens, números, filmes e até mesmo o som - são armazenados usando apenas estes dois numerais!",
+          "text": "Agora vamos conhecer a ordenação por Inserção(Insertion Sort)",
           "image": {
             "name": null,
             "url": null
           }
         },
+
         {
-          "text": "Estas atividades ensinarão como enviar mensagens secretas aos seus amigos usando exatamente o mesmo método que um computador.",
+          "text": "A ordenação por inserção remove cada objeto de um grupo desordenado e o insere na sua posição correta em uma lista crescente (veja a figura abaixo).",
           "image": {
-            "name": null,
-            "url": null
+            "_id": "5ea7264d127b53001e9192e9",
+            "name": "tela2-n2-1588012620919.png",
+            "url": "l4q1"
+          } 
+        },
+
+        {
+          "text": "A cada inserção, o grupo de objetos desordenados diminui e a lista ordenada aumenta até que, finalmente, toda a lista esteja ordenada.",
+          "image": {
+            "_id": "5ea7264d127b53001e9192eb",
+            "name": "tela3-n2-1588012621222.png",
+            "url": "l4q2"
           }
+          
         }
       ],
       "showCards": true,
       "tips": "1. Pressione o cartão para virá-lo;2. A soma dos pontos dos cartões representam o número decimal;3. Os números binários é representado pela sequência de zeros e uns;4. Responda todas as perguntas corretamente para completar a tarefa.",
       "level": 2,
+      "content":"Entende como ordenar utilizando a ordenação por inserção",
       "__v": 0
     },
     {
