@@ -52,8 +52,20 @@ export default function Exercises({navigation}) {
     l4q3: require('../../assets/images/Level2/tela4-n2.png'),
     l4q4: require('../../assets/images/Level2/tela5-n2.png'),
 
-    //l5q1: require('../../assets/images/level5/l5q1.png'),
-    //l5q2: require('../../assets/images/level5/l5q2.png'),
+    l5q1: require('../../assets/images/Level3/tela2-n3.png'),
+    l5q2: require('../../assets/images/Level3/tela3-n3.png'),
+    l5q3: require('../../assets/images/Level3/tela4-n3.png'),
+    l5q4: require('../../assets/images/Level3/tela5-n3.png'),
+    l5q5: require('../../assets/images/Level3/tela6-n3.png'),
+    l5q6: require('../../assets/images/Level3/tela7-n3.png'),
+    l5q7: require('../../assets/images/Level3/tela8-n3.png'),
+    l5q8: require('../../assets/images/Level3/tela9-n3.png'),
+    l5q9: require('../../assets/images/Level3/tela10-n3.png'),
+    l5q10: require('../../assets/images/Level3/tela11-n3.png'),
+    l5q11: require('../../assets/images/Level3/tela12-n3.png'),
+    l5q12: require('../../assets/images/Level3/tela13-n3.png'),
+    l5q13: require('../../assets/images/Level3/tela14-n3.png'),
+    l5q14: require('../../assets/images/Level3/tela15-n3.png'),
 
     //l6q3: require('../../assets/images/level6/l6q3.png'),
 
@@ -120,8 +132,8 @@ export default function Exercises({navigation}) {
     return content;
   };
 
-  //function chooseQuestionRender() {
-   // switch (question.type) {
+  function chooseQuestionRender() {
+    switch (question.type) {
     //  case 'MULTIPLECHOICE':
      //   return (
       //    <MultipleChoice
@@ -137,14 +149,14 @@ export default function Exercises({navigation}) {
 
       
 
-      //case 'EXPLANATION':
-      //  return <Explanation step={step} setSteps={setSteps} />;
+      case 'EXPLANATION':
+        return <Explanation step={step} setSteps={setSteps} />;
      
 
-     // default:
-       // return null;
-   // }
- // }
+      default:
+        return null;
+    }
+  }
 
   return (
     <View>
@@ -175,7 +187,7 @@ export default function Exercises({navigation}) {
             keyboardVerticalOffset={-145}>
             
             {showAnswerOptions ? (
-              
+              chooseQuestionRender() )||(
             
             <BoxAlternative
             alternativesContent={(
@@ -195,6 +207,7 @@ export default function Exercises({navigation}) {
     )}
               
               />
+      
               ) : (
               <Text style={styles.defaultText}>
                 Leia atentamente cada questão. Em seguida, arraste a carta para o lado e verá

@@ -7,7 +7,7 @@ import {useFocusEffect} from '@react-navigation/native';
 import data from '../../assets/data.json';
 import level1 from '../../assets/images/levelSelection/level1.png';
 import level2 from '../../assets/images/levelSelection/level2.png';
-//import level3 from '../../assets/images/levelSelection/level3.png';
+import level3 from '../../assets/images/levelSelection/level3.png';
 //import level4 from '../../assets/images/levelSelection/level4.png';
 //import level5 from '../../assets/images/levelSelection/level5.png';
 //import level6 from '../../assets/images/levelSelection/level6.png';
@@ -25,7 +25,7 @@ function LevelSelection({navigation}) {
     try {
       const levels = {
         level2: JSON.parse(await AsyncStorage.getItem('level2')),
-        //level3: JSON.parse(await AsyncStorage.getItem('level3')),
+        level3: JSON.parse(await AsyncStorage.getItem('level3')),
         //level4: JSON.parse(await AsyncStorage.getItem('level4')),
        // level5: JSON.parse(await AsyncStorage.getItem('level5')),
         //level6: JSON.parse(await AsyncStorage.getItem('level6')),
@@ -74,6 +74,15 @@ function LevelSelection({navigation}) {
             image={level2}
             available={levelsAvailable.level2}
             onPress={() => navigation.navigate('Exercises', {data: data[1]})}
+          />
+        </View>
+        
+        <View style={styles.boxContainer}>
+          <CardLevel
+            level="3"
+            image={level3}
+            available={levelsAvailable.level3}
+            onPress={() => navigation.navigate('Exercises', {data: data[2]})}
           />
         </View>
         
