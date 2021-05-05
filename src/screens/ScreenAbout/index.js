@@ -12,7 +12,7 @@ import styles from './styles';
 function ScreenAbout({navigation}) {
   const viewOfContent = [
     <Text style={styles.textContent}>
-      O aplicativo Computação Plugada foi inspirado no livro de Bell, T.;
+      O aplicativo Computação Plugada Ordenação foi inspirado no livro de Bell, T.;
       Witten, I. e Fellows, M. (2011). “Computer Science Unplugged – Ensinando
       Ciência da Computação sem o uso do Computador”. Tradução de Luciano Porto
       Barreto, 2011.
@@ -21,16 +21,27 @@ function ScreenAbout({navigation}) {
       Este livro apresenta atividades práticas, lúdicas e acessíveis sobre
       diversos temas da ciência da computação. O mesmo engloba técnicas fáceis
       para seu uso, tornando-se disponível para todos. Sua prática é fácil não
-      só em salas de aula mas também fora, podendo ser administrado por
+      só em salas de aula, mas também fora, podendo ser administrado por
       professores e compreendido pelas crianças.
     </Text>,
     <Text style={styles.textContent}>
-      O aplicativo aqui apresentado busca simplificar ainda mais a aplicação das
-      atividades propostas sem a necessidade de produção de materiais
-      adicionais. O aplicativo é uma grande inovação para as técnicas de
-      aprendizagem, apresentando temas complexos de uma forma elementar para o
-      conhecimento.
+      O aplicativo aqui apresentado visa ensinar Algoritmos de Ordenação para
+      crianças e jovens, além de buscar simplificar ainda mais a aplicação das
+      atividades propostas sem a necessidade de produção de materiais adicionais.
+      O aplicativo é uma grande inovação para as técnicas de aprendizagem, 
+      apresentando temas complexos de uma forma elementar para o conhecimento.
     </Text>,
+    <Text style={styles.textContent}>
+    Referências:{"\n"}{"\n"}
+    "https://br.freepik.com/vetores/escolaEscola" vetor criado por macrovector - br.freepik.com{"\n"}{"\n"}
+    "https://br.freepik.com/vetores/icone" Ícone vetor criado por gstudioimagen - br.freepik.com{"\n"}{"\n"}
+    "https://br.freepik.com/vetores/mao" Mão vetor criado por pch.vector - br.freepik.com{"\n"}{"\n"}
+    "https://www.pexels.com/pt-br/foto/mulher-com-casaco-bege-em-pe-perto-da-estante-de-livros-de-madeira-branca-4855385/" - Pexels{"\n"}{"\n"}
+  </Text>,
+  <Text style={styles.textContent}>
+  "https://pixabay.com/pt/vectors/para-baixo-seta-curvo-inscreva-se-47585/" - Pixabay{"\n"}{"\n"}
+  "https://icons8.com/music/author/ilya-truhanov-1" - Ilya Truhanov
+</Text>,
   ];
   return (
     <LinearGradient
@@ -46,10 +57,10 @@ function ScreenAbout({navigation}) {
       <Text style={styles.credits}> version: {data.version}</Text>
       <View>
         <Text style={styles.credits}>
-          Desenvolvido e mantido pela equipe do projeto Computação Desplugada da
+          Desenvolvido pelo aluno Reinaldo da Veiga Lima, Orientado pela professora Ayla Débora Rebouças da
           UFPB campus IV.
         </Text>
-        <Text style={styles.credits}>Todos os Direitos Reservados © 2020.</Text>
+        <Text style={styles.credits}>Todos os Direitos Reservados © 2021.</Text>
         <TouchableOpacity onPress={() => navigation.navigate('Main')}>
           <Text style={styles.textButton}>VOLTAR</Text>
         </TouchableOpacity>

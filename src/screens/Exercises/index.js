@@ -13,7 +13,6 @@ import BoxAlternative from "../../components/BoxAlternative";
 
 
 import {ProgressBar} from 'react-native-paper';
-import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
 
 import {useRoute} from '@react-navigation/native';
 
@@ -22,13 +21,15 @@ import CustomBackground from '../../components/CustomBackground';
 import {
   Explanation,
   MultipleChoice,
-  Numeric,
-  ShortAnswer,
-  TrueOrFalse,
+
 } from '../../components/Questions';
+
 import Tooltip from '../../components/Tooltip';
 import {general, colors} from '../../styles';
 import styles from './styles';
+
+import Video from 'react-native-video';
+
 
 export default function Exercises({navigation}) {
   const [showTips, setShowTips] = useState(false);
@@ -44,6 +45,7 @@ export default function Exercises({navigation}) {
   const progress = step / maxStep;
   const finishLevel = step === maxStep;
 
+
   const imagens = {
     l3q1: require('../../assets/images/Level1/books.png'),
     
@@ -51,7 +53,7 @@ export default function Exercises({navigation}) {
     l4q2: require('../../assets/images/Level2/tela3-n2.png'),
     l4q3: require('../../assets/images/Level2/tela4-n2.png'),
     l4q4: require('../../assets/images/Level2/tela5-n2.png'),
-
+    
     l5q1: require('../../assets/images/Level3/tela2-n3.png'),
     l5q2: require('../../assets/images/Level3/tela3-n3.png'),
     l5q3: require('../../assets/images/Level3/tela4-n3.png'),
@@ -78,21 +80,21 @@ export default function Exercises({navigation}) {
     //l8q5: require('../../assets/images/level8/l8q5.png'),
   };
 
+  const videos = {
+    l4q5: require('../../assets/videos/Level2/video-insertion.mp4'),
+  };
+
+
   const handleTips = () => setShowTips(!showTips);
 
   const getImagens = type => imagens[type] || null;
 
+  const getVideos = type => videos[type] || null;
+
+
   useLayoutEffect(() => {
     navigation.setOptions({
-      title: response.title,
-      headerRight: () => (
-        <Icon
-          name="lightbulb-on-outline"
-          size={general.iconSize.bigger}
-          style={styles.icon}
-          onPress={handleTips}
-        />
-      ),
+      title: response.title
     });
   }, [navigation]);
 
@@ -111,13 +113,20 @@ export default function Exercises({navigation}) {
     return null;
   };
 
-
+  const showVideo = url => {
+    if (url) {
+      return <Video resizeMode= 'contain' source={getVideos(url)} style={styles.statementVideo}/>;
+    }
+    return null;
+  };
+    
 
   const viewOfContent = () => {
     const content = exercise.introduction.map(item => (
       <View style={styles.statementImageConteiner}>
         <Text style={styles.contentText}>{item.text}</Text>
         {showImage(item.image.url)}
+        
       </View>
     ));
 
@@ -125,8 +134,8 @@ export default function Exercises({navigation}) {
       <View style={styles.statementImageConteiner}>
         <Text style={styles.contentText}>{question.statement}</Text>
         {showImage(question.image.url)}
-        
-      </View>,
+        {showVideo(question.video.url)}
+      </View>
     );
 
     return content;

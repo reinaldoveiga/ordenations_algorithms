@@ -35,7 +35,13 @@ const styles = StyleSheet.create({
     width: Math.round((metrics.screenWidth * 14) / 16),
     height: metrics.screenHeight * 0.17,
     marginTop: 30,
-
+  },
+  statementVideo: {
+    justifyContent: 'flex-end',
+    width: Math.round((metrics.screenWidth * 14) / 16),
+    height: metrics.screenHeight * 0.28,
+    marginTop: 0,
+    
   },
   icon: {
     color: colors.colorPrimary,

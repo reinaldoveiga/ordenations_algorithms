@@ -3,7 +3,7 @@ import {View} from 'react-native';
 
 import {PropTypes} from 'prop-types';
 
-import ChoiceButton from '../ChoiceButton';
+import ChoiceButtonAlternative from '../ChoiceButtonAlternative';
 import styles from './styles';
 
 const explanation = props => {
@@ -11,7 +11,7 @@ const explanation = props => {
 
   return (
     <View style={styles.descriptive}>
-      <ChoiceButton
+      <ChoiceButtonAlternative
         step={step}
         correct
         text="Próximo"

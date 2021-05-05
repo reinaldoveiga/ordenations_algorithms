@@ -12,6 +12,10 @@
             "name": null,
             "url": null
           },
+          "video": {
+            "name": null,
+            "url": null
+          },
           "type": "MULTIPLECHOICE",
           "level": 1,
           "alternatives": [
@@ -34,7 +38,7 @@
       ],
       "_id": "5ea72655127b53001e919336",
       "title": "Introdução",
-      "description": "Antes de iniciar a atividade, pode ser útil demonstrar os fundamentos ao grupo. Para esta atividade, são necessários cinco cartões, com pontos marcados de um lado e nada sobre o verso.",
+      "description": "",
       "introduction": [
         {
           "text": "Você sabia que os computadores são muitas vezes utilizados para colocar coisas em algum tipo de ordem? Por exemplo, podem colocar nomes em ordem alfabética,  e-mails por data, ou itens em ordem numérica.",
@@ -74,6 +78,10 @@
             "_id": "5ea7264d127b53001e9192ed",
             "name": "tela4-n2-1588012621515.png",
             "url": "l4q3"
+          },
+          "video": {
+            "name": null,
+            "url": null
           },
           "type": "MULTIPLECHOICE",
           "level": 2,
@@ -116,6 +124,10 @@
             "name": "tela4-n2-1588012621515.png",
             "url": "l4q4"
           },
+          "video": {
+            "name": null,
+            "url": null
+          },
           "type": "MULTIPLECHOICE",
           "level": 2,
           "alternatives": [
@@ -148,11 +160,38 @@
           "createdAt": "2020-04-27T18:36:56.941Z",
           "updatedAt": "2020-04-27T18:36:56.941Z",
           "__v": 0
+        },
+
+
+
+
+        {
+          "_id": "5ea72654127b53001e91932t",
+          "statement": "Você notou que faz várias comparações para descobrir em qual posição irá colocar a carta? Veja o vídeo a seguir para aprender mais.",
+          "type": "EXPLANATION",
+          "level": 2,
+          "image": {
+            "name": null,
+            "url": null
+          },
+          "video": {
+            "_id": "5ea72654127b53001e91932u",
+            "name": "video-insertion-1588012628459.mp4",
+            "url": "l4q5"
+          },
+          "createdAt": "2020-04-27T18:37:08.573Z",
+          "updatedAt": "2020-04-27T18:37:08.573Z",
+          "__v": 0
         }
+
+
+
+
+
       ],
       "_id": "5ea72656127b53001e919337",
       "title": "Ordenação por Inserção",
-      "description": "Antes de iniciar a atividade, pode ser útil demonstrar os fundamentos ao grupo. Para esta atividade, são necessários cinco cartões, com pontos marcados de um lado e nada sobre o verso.",
+      "description": "",
       "introduction": [
         {
           "text": "Agora vamos conhecer a ordenação por Inserção(Insertion Sort)",
@@ -182,7 +221,7 @@
         }
       ],
       "showCards": true,
-      "tips": "1. Pressione o cartão para virá-lo;2. A soma dos pontos dos cartões representam o número decimal;3. Os números binários é representado pela sequência de zeros e uns;4. Responda todas as perguntas corretamente para completar a tarefa.",
+      "tips": "1. Responda todas as perguntas corretamente para completar a tarefa.",
       "level": 2,
       "content":"Entende como ordenar utilizando a ordenação por inserção",
       "__v": 0
@@ -207,6 +246,10 @@
             "_id": "5ea72649127b53001e9192d5",
             "name": "tela4-n2-1588012617750.png",
             "url": "l5q3"
+          },
+          "video": {
+            "name": null,
+            "url": null
           },
           "type": "MULTIPLECHOICE",
           "level": 3,
@@ -248,6 +291,10 @@
               "name": "tela5-n3-1588012628459.png",
               "url": "l5q4"
             },
+            "video": {
+              "name": null,
+              "url": null
+            },
             "createdAt": "2020-04-27T18:37:08.573Z",
             "updatedAt": "2020-04-27T18:37:08.573Z",
             "__v": 0
@@ -263,6 +310,10 @@
               "name": "tela6-n3-1588012628459.png",
               "url": "l5q5"
             },
+            "video": {
+              "name": null,
+              "url": null
+            },
             "createdAt": "2020-04-27T18:37:08.573Z",
             "updatedAt": "2020-04-27T18:37:08.573Z",
             "__v": 0
@@ -276,6 +327,10 @@
             "_id": "5ea72649127b53001e9192d6",
             "name": "tela7-n3-1588012617750.png",
             "url": "l5q6"
+          },
+          "video": {
+            "name": null,
+            "url": null
           },
           "type": "MULTIPLECHOICE",
           "level": 3,
@@ -307,6 +362,10 @@
             "name": "tela8-n3-1588012628459.png",
             "url": "l5q7"
           },
+          "video": {
+            "name": null,
+            "url": null
+          },
           "createdAt": "2020-04-27T18:37:08.573Z",
           "updatedAt": "2020-04-27T18:37:08.573Z",
           "__v": 0
@@ -321,6 +380,10 @@
             "_id": "5ea72654127b53001e91932k",
             "name": "tela9-n3-1588012628459.png",
             "url": "l5q8"
+          },
+          "video": {
+            "name": null,
+            "url": null
           },
           "createdAt": "2020-04-27T18:37:08.573Z",
           "updatedAt": "2020-04-27T18:37:08.573Z",
@@ -337,6 +400,10 @@
             "name": "tela10-n3-1588012628459.png",
             "url": "l5q9"
           },
+          "video": {
+            "name": null,
+            "url": null
+          },
           "createdAt": "2020-04-27T18:37:08.573Z",
           "updatedAt": "2020-04-27T18:37:08.573Z",
           "__v": 0
@@ -350,6 +417,10 @@
             "_id": "5ea72649127b53001e9192d6",
             "name": "tela11-n3-1588012617750.png",
             "url": "l5q10"
+          },
+          "video": {
+            "name": null,
+            "url": null
           },
           "type": "MULTIPLECHOICE",
           "level": 3,
@@ -386,6 +457,10 @@
             "name": "tela12-n3-1588012628459.png",
             "url": "l5q11"
           },
+          "video": {
+            "name": null,
+            "url": null
+          },
           "createdAt": "2020-04-27T18:37:08.573Z",
           "updatedAt": "2020-04-27T18:37:08.573Z",
           "__v": 0
@@ -401,6 +476,10 @@
             "name": "tela13-n3-1588012628459.png",
             "url": "l5q12"
           },
+          "video": {
+            "name": null,
+            "url": null
+          },
           "createdAt": "2020-04-27T18:37:08.573Z",
           "updatedAt": "2020-04-27T18:37:08.573Z",
           "__v": 0
@@ -414,6 +493,10 @@
             "_id": "5ea72649127b53001e9192d6",
             "name": "tela14-n3-1588012617750.png",
             "url": "l5q13"
+          },
+          "video": {
+            "name": null,
+            "url": null
           },
           "type": "MULTIPLECHOICE",
           "level": 3,
@@ -445,6 +528,10 @@
             "name": "tela15-n3-1588012628459.png",
             "url": "l5q14"
           },
+          "video": {
+            "name": null,
+            "url": null
+          },
           "createdAt": "2020-04-27T18:37:08.573Z",
           "updatedAt": "2020-04-27T18:37:08.573Z",
           "__v": 0
@@ -453,7 +540,7 @@
 
       "_id": "5ea72656127b53001e919342",
       "title": "Quicksort",
-      "description": "São exibidas dez imagens com legendas em que o usuário deve traduzir para binário e converter em decimal.",
+      "description": "",
       "introduction": [
         {
           "text": "Agora vamos conhecer o método de ordenação rápida (QUICKSORT)",
@@ -479,8 +566,8 @@
           }
         }
       ],
-      "showCards": false,
-      "tips": "1. Pressione o cartão para virá-lo;2. A soma dos pontos dos cartões representam o número decimal;3. Os números binários é representado pela sequência de zeros e uns;4. Responda todas as perguntas corretamente para completar a tarefa.",
+      "showCards": true,
+      "tips": "1. Responda todas as perguntas corretamente para completar a tarefa.",
       "level": 3,
       "content":"Entende como ordenar utilizando o método de ordenação Quicksort",
       "__v": 0
