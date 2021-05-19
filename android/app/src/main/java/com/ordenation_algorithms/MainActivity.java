@@ -1,4 +1,4 @@
-package com.ordenation_algorithms;
+package com.sorting_algorithms;
 
 import com.facebook.react.ReactActivity;
 
@@ -10,6 +10,6 @@ public class MainActivity extends ReactActivity {
    */
   @Override
   protected String getMainComponentName() {
-    return "ordenation_algorithms";
+    return "sorting_algorithms";
   }
 }

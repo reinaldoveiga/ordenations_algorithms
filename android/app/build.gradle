@@ -131,7 +131,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.ordenation_algorithms"
+        applicationId "com.sorting_algorithms"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1

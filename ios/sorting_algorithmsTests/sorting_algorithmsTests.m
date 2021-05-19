@@ -7,11 +7,11 @@
 #define TIMEOUT_SECONDS 600
 #define TEXT_TO_LOOK_FOR @"Welcome to React"
 
-@interface ordenation_algorithmsTests : XCTestCase
+@interface sorting_algorithmsTests : XCTestCase
 
 @end
 
-@implementation ordenation_algorithmsTests
+@implementation sorting_algorithmsTests
 
 - (BOOL)findSubviewInView:(UIView *)view matching:(BOOL(^)(UIView *view))test
 {

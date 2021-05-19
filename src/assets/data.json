@@ -2,7 +2,7 @@
     {
       "module": {
         "id": 1,
-        "name": "Ordenation Algorithms"
+        "name": "Sorting Algorithms"
       },
       "questions": [
         {
@@ -68,7 +68,7 @@
     {
       "module": {
         "id": 1,
-        "name": "Ordenation Algorithms"
+        "name": "Sorting Algorithms"
       },
       "questions": [
         {
@@ -236,7 +236,7 @@
     {
       "module": {
         "id": 1,
-        "name": "Ordenation Algorithms"
+        "name": "Sorting Algorithms"
       },
       "questions": [
         {
@@ -569,6 +569,80 @@
       "showCards": true,
       "tips": "1. Responda todas as perguntas corretamente para completar a tarefa.",
       "level": 3,
+      "content":"Entende como ordenar utilizando o método de ordenação Quicksort",
+      "__v": 0
+    },
+
+
+
+
+
+
+    {
+      "module": {
+        "id": 1,
+        "name": "Sorting Algorithms"
+      },
+      "questions": [
+        {
+          "_id": "5ea72649127b53001e9192d4",
+          "statement": "Observando as cartas abaixo...Quais cartas são menores que a carta número 4 ?",
+          "image": {
+            "_id": "5ea72649127b53001e9192d5",
+            "name": "tela4-n2-1588012617750.png",
+            "url": "l5q3"
+          },
+          "video": {
+            "name": null,
+            "url": null
+          },
+          "type": "MULTIPLECHOICE",
+          "level": 4,
+          "alternatives": [
+            {
+              
+                "correct": true,
+                "_id": "5ea72652127b53001e91930d",
+                "text": "2, 3, 1"
+              },
+              {
+                "correct": false,
+                "_id": "5ea72652127b53001e91930e",
+                "text": "4, 2, 7"
+              },
+              {
+                "correct": false,
+                "_id": "5ea72652127b53001e91930f",
+                "text": "2, 3, 5"
+              },
+              {
+                "correct": false,
+                "_id": "5ea72652127b53001e919310",
+                "text": "6, 5, 7"
+              }
+          ],
+          "createdAt": "2020-04-27T18:36:57.996Z",
+          "updatedAt": "2020-04-27T18:36:57.996Z",
+          "__v": 0
+        }
+      ],
+
+      "_id": "5ea72656127b53001e919342",
+      "title": "Comparação",
+      "description": "",
+      "introduction": [
+        {
+          "text": "Comparação",
+          "image": {
+            "name": null,
+            "url": null
+          }
+        }
+        
+      ],
+      "showCards": true,
+      "tips": "1. Responda todas as perguntas corretamente para completar a tarefa.",
+      "level": 4,
       "content":"Entende como ordenar utilizando o método de ordenação Quicksort",
       "__v": 0
     }

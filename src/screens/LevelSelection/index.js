@@ -8,11 +8,7 @@ import data from '../../assets/data.json';
 import level1 from '../../assets/images/levelSelection/level1.png';
 import level2 from '../../assets/images/levelSelection/level2.png';
 import level3 from '../../assets/images/levelSelection/level3.png';
-//import level4 from '../../assets/images/levelSelection/level4.png';
-//import level5 from '../../assets/images/levelSelection/level5.png';
-//import level6 from '../../assets/images/levelSelection/level6.png';
-//import level7 from '../../assets/images/levelSelection/level7.png';
-//import level8 from '../../assets/images/levelSelection/level8.png';
+import level4 from '../../assets/images/levelSelection/level4.png';
 import CardLevel from '../../components/CardLevel';
 //import {colors} from '../../styles';
 import styles from './styles';
@@ -26,7 +22,7 @@ function LevelSelection({navigation}) {
       const levels = {
         level2: JSON.parse(await AsyncStorage.getItem('level2')),
         level3: JSON.parse(await AsyncStorage.getItem('level3')),
-        //level4: JSON.parse(await AsyncStorage.getItem('level4')),
+        level4: JSON.parse(await AsyncStorage.getItem('level4')),
        // level5: JSON.parse(await AsyncStorage.getItem('level5')),
         //level6: JSON.parse(await AsyncStorage.getItem('level6')),
         //level7: JSON.parse(await AsyncStorage.getItem('level7')),
@@ -37,7 +33,7 @@ function LevelSelection({navigation}) {
         await Promise.all([
           AsyncStorage.setItem('level2', 'false'),
           AsyncStorage.setItem('level3', 'false'),
-         // AsyncStorage.setItem('level4', 'false'),
+          AsyncStorage.setItem('level4', 'false'),
          // AsyncStorage.setItem('level5', 'false'),
          // AsyncStorage.setItem('level6', 'false'),
          // AsyncStorage.setItem('level7', 'false'),
@@ -84,6 +80,14 @@ function LevelSelection({navigation}) {
             available={levelsAvailable.level3}
             onPress={() => navigation.navigate('Exercises', {data: data[2]})}
           />
+
+          <CardLevel
+            level="4"
+            image={level4}
+            available={levelsAvailable.level4}
+            onPress={() => navigation.navigate('Exercises', {data: data[3]})}
+          />
+
         </View>
         
       </ScrollView>

@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-               BuildableName = "ordenation_algorithms.app"
-               BlueprintName = "ordenation_algorithms"
-               ReferencedContainer = "container:ordenation_algorithms.xcodeproj">
+               BuildableName = "sorting_algorithms.app"
+               BlueprintName = "sorting_algorithms"
+               ReferencedContainer = "container:sorting_algorithms.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "00E356ED1AD99517003FC87E"
-               BuildableName = "ordenation_algorithmsTests.xctest"
-               BlueprintName = "ordenation_algorithmsTests"
-               ReferencedContainer = "container:ordenation_algorithms.xcodeproj">
+               BuildableName = "sorting_algorithmsTests.xctest"
+               BlueprintName = "sorting_algorithmsTests"
+               ReferencedContainer = "container:sorting_algorithms.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -55,9 +55,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "ordenation_algorithms.app"
-            BlueprintName = "ordenation_algorithms"
-            ReferencedContainer = "container:ordenation_algorithms.xcodeproj">
+            BuildableName = "sorting_algorithms.app"
+            BlueprintName = "sorting_algorithms"
+            ReferencedContainer = "container:sorting_algorithms.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -72,9 +72,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "ordenation_algorithms.app"
-            BlueprintName = "ordenation_algorithms"
-            ReferencedContainer = "container:ordenation_algorithms.xcodeproj">
+            BuildableName = "sorting_algorithms.app"
+            BlueprintName = "sorting_algorithms"
+            ReferencedContainer = "container:sorting_algorithms.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
