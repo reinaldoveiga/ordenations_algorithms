@@ -6,7 +6,7 @@ import {PropTypes} from 'prop-types';
 import ChoiceButtonAlternative from '../ChoiceButtonAlternative';
 import styles from './styles';
 
-const explanation = props => {
+const video = props => {
   const {step, setSteps} = props;
 
   return (
@@ -14,7 +14,7 @@ const explanation = props => {
       <ChoiceButtonAlternative
         step={step}
         correct
-        text="Próxima Explicação"
+        text="Já Assisti"
         
         onPress={() => setSteps(step + 1)}
       />
@@ -22,10 +22,10 @@ const explanation = props => {
   );
 };
 
-explanation.propTypes = {
+video.propTypes = {
   step: PropTypes.number.isRequired,
   setSteps: PropTypes.func.isRequired,
   
 };
 
-export default explanation;
+export default video;

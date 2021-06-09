@@ -16,7 +16,7 @@ const CardLevel = props => {
     return () =>
       Alert.alert(
         'Que Pena :(',
-        'Essa missão ainda não está liberado, complete as missões anteriores para debloquea-lo.',
+        'Esse nível ainda não está liberado, complete os niveis anteriores para debloquea-lo.',
       );
   }
 
@@ -31,7 +31,7 @@ const CardLevel = props => {
       <TouchableWithoutFeedback onPress={onPressCardLevel()}>
         <View style={styles.subContainer}>
           <Image source={image} style={styles.imageLevel} />
-          <Text style={styles.textLevel}>Missão {level}</Text>
+          <Text style={styles.textLevel}>Nível {level}</Text>
         </View>
       </TouchableWithoutFeedback>
     </View>

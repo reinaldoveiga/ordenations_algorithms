@@ -65,6 +65,9 @@
 
 
 
+
+
+
     {
       "module": {
         "id": 1,
@@ -168,7 +171,7 @@
         {
           "_id": "5ea72654127b53001e91932t",
           "statement": "Você notou que faz várias comparações para descobrir em qual posição irá colocar a carta? Veja o vídeo a seguir para aprender mais.",
-          "type": "EXPLANATION",
+          "type": "VIDEO",
           "level": 2,
           "image": {
             "name": null,
@@ -190,7 +193,7 @@
 
       ],
       "_id": "5ea72656127b53001e919337",
-      "title": "Ordenação por Inserção",
+      "title": "Ordenação por Inserção (Insertion Sort)",
       "description": "",
       "introduction": [
         {
@@ -223,7 +226,7 @@
       "showCards": true,
       "tips": "1. Responda todas as perguntas corretamente para completar a tarefa.",
       "level": 2,
-      "content":"Entende como ordenar utilizando a ordenação por inserção",
+      "content":"Você tem ideia de como funciona a Ordenação por Inserção (Insertion Sort)",
       "__v": 0
     },
 
@@ -535,11 +538,30 @@
           "createdAt": "2020-04-27T18:37:08.573Z",
           "updatedAt": "2020-04-27T18:37:08.573Z",
           "__v": 0
-        }  
+        },
+
+        {
+          "_id": "5ea72654127b53001e91932t1",
+          "statement": "Você notou que vai sorteando uma carta e depois compara cada uma das cartas restantes com ela para descobrir em qual posição irá colocar a carta. Veja o vídeo a seguir para aprender mais sobre o algoritmo de ordenação QuickSort.",
+          "type": "VIDEO",
+          "level": 3,
+          "image": {
+            "name": null,
+            "url": null
+          },
+          "video": {
+            "_id": "5ea72654127b53001e91932u",
+            "name": "video-insertion-1588012628459.mp4",
+            "url": "l4q5"
+          },
+          "createdAt": "2020-04-27T18:37:08.573Z",
+          "updatedAt": "2020-04-27T18:37:08.573Z",
+          "__v": 0
+        }
       ],
 
       "_id": "5ea72656127b53001e919342",
-      "title": "Quicksort",
+      "title": "Ordenação Rápida (Quicksort)",
       "description": "",
       "introduction": [
         {
@@ -569,7 +591,7 @@
       "showCards": true,
       "tips": "1. Responda todas as perguntas corretamente para completar a tarefa.",
       "level": 3,
-      "content":"Entende como ordenar utilizando o método de ordenação Quicksort",
+      "content":"Você tem ideia de como funciona a Ordenação Rápida (Quicksort)",
       "__v": 0
     },
 
@@ -585,12 +607,30 @@
       },
       "questions": [
         {
-          "_id": "5ea72649127b53001e9192d4",
-          "statement": "Observando as cartas abaixo...Quais cartas são menores que a carta número 4 ?",
-          "image": {
-            "_id": "5ea72649127b53001e9192d5",
-            "name": "tela4-n2-1588012617750.png",
-            "url": "l5q3"
+        "_id": "5ea72654127b53001e91932t2",
+        "statement": "Veja o vídeo a seguir para saber quantas comparações são realizadas pelos algoritmos e qual é o algoritmo mais rápido.",
+        "type": "VIDEO",
+        "level": 4,
+        "image": {
+          "name": null,
+          "url": null
+        },
+        "video": {
+          "_id": "5ea72654127b53001e91932u",
+          "name": "video-insertion-1588012628459.mp4",
+          "url": "l4q5"
+        },
+        "createdAt": "2020-04-27T18:37:08.573Z",
+        "updatedAt": "2020-04-27T18:37:08.573Z",
+        "__v": 0
+      },
+
+      {
+        "_id": "5ea72649127b53001e9192d41",
+        "statement": "De acordo com o vídeo, qual método de ordenação é o mais rápido ?",
+        "image": {
+            "name": null,
+            "url": null
           },
           "video": {
             "name": null,
@@ -603,36 +643,88 @@
               
                 "correct": true,
                 "_id": "5ea72652127b53001e91930d",
-                "text": "2, 3, 1"
+                "text": "Quicksort"
               },
               {
                 "correct": false,
                 "_id": "5ea72652127b53001e91930e",
-                "text": "4, 2, 7"
-              },
-              {
-                "correct": false,
-                "_id": "5ea72652127b53001e91930f",
-                "text": "2, 3, 5"
-              },
-              {
-                "correct": false,
-                "_id": "5ea72652127b53001e919310",
-                "text": "6, 5, 7"
+                "text": "Insertion Sort"
               }
           ],
           "createdAt": "2020-04-27T18:36:57.996Z",
           "updatedAt": "2020-04-27T18:36:57.996Z",
           "__v": 0
-        }
+        },
+      
+        {
+          "_id": "5ea72649127b53001e9192d41",
+          "statement": "De acordo com o vídeo, qual método de ordenação demanda mais comparações ?",
+          "image": {
+              "name": null,
+              "url": null
+            },
+            "video": {
+              "name": null,
+              "url": null
+            },
+            "type": "MULTIPLECHOICE",
+            "level": 4,
+            "alternatives": [
+              {
+                
+                  "correct": true,
+                  "_id": "5ea72652127b53001e91930d",
+                  "text": "Quicksort"
+                },
+                {
+                  "correct": false,
+                  "_id": "5ea72652127b53001e91930e",
+                  "text": "Insertion Sort"
+                }
+            ],
+            "createdAt": "2020-04-27T18:36:57.996Z",
+            "updatedAt": "2020-04-27T18:36:57.996Z",
+            "__v": 0
+          },
+
+          {
+            "_id": "5ea72649127b53001e9192d41",
+            "statement": "Se você tiver de colocar em ordem alfabética 1000 fichas e quiser fazer isso mais rápido, qual algoritmo utilizaria ?",
+            "image": {
+                "name": null,
+                "url": null
+              },
+              "video": {
+                "name": null,
+                "url": null
+              },
+              "type": "MULTIPLECHOICE",
+              "level": 4,
+              "alternatives": [
+                {
+                  
+                    "correct": true,
+                    "_id": "5ea72652127b53001e91930d",
+                    "text": "Quicksort"
+                  },
+                  {
+                    "correct": false,
+                    "_id": "5ea72652127b53001e91930e",
+                    "text": "Insertion Sort"
+                  }
+              ],
+              "createdAt": "2020-04-27T18:36:57.996Z",
+              "updatedAt": "2020-04-27T18:36:57.996Z",
+              "__v": 0
+            }
       ],
 
       "_id": "5ea72656127b53001e919342",
-      "title": "Comparação",
+      "title": "Comparação dos Algoritmos",
       "description": "",
       "introduction": [
         {
-          "text": "Comparação",
+          "text": "Agora vamos comparar os métodos de ordenação por Inserção X Ordenação Rápida",
           "image": {
             "name": null,
             "url": null
@@ -643,7 +735,7 @@
       "showCards": true,
       "tips": "1. Responda todas as perguntas corretamente para completar a tarefa.",
       "level": 4,
-      "content":"Entende como ordenar utilizando o método de ordenação Quicksort",
+      "content":"Você tem ideia de como é feita a comparação entre Insertion Sort e Quicksort",
       "__v": 0
     }
   ]
