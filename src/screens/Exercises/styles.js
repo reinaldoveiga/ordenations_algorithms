@@ -53,6 +53,7 @@ const styles = StyleSheet.create({
     height: metrics.screenHeight / 4,
     textAlign: 'center',
     color: colors.colorBackground,
+    fontSize: 15
   },
   contentContainerStyle: {//
     justifyContent: 'center',

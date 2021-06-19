@@ -32,7 +32,7 @@ function ScreenAbout({navigation}) {
       apresentando temas complexos de uma forma elementar para o conhecimento.
     </Text>,
     <Text style={styles.textContent}>
-    Referências:{"\n"}{"\n"}
+    Fonte de Imagens e Músicas:{"\n"}{"\n"}
     "https://br.freepik.com/vetores/escolaEscola" vetor criado por macrovector - br.freepik.com{"\n"}{"\n"}
     "https://br.freepik.com/vetores/icone" Ícone vetor criado por gstudioimagen - br.freepik.com{"\n"}{"\n"}
     "https://br.freepik.com/vetores/mao" Mão vetor criado por pch.vector - br.freepik.com{"\n"}{"\n"}
@@ -40,7 +40,13 @@ function ScreenAbout({navigation}) {
   </Text>,
   <Text style={styles.textContent}>
   "https://pixabay.com/pt/vectors/para-baixo-seta-curvo-inscreva-se-47585/" - Pixabay{"\n"}{"\n"}
-  "https://icons8.com/music/author/ilya-truhanov-1" - Ilya Truhanov
+  "https://icons8.com/music/author/ilya-truhanov-1" - Ilya Truhanov{"\n"}{"\n"}
+  "https://br.freepik.com/fotos/fundo" - Fundo foto criado por jcomp - br.freepik.com{"\n"}{"\n"}
+  "https://www.pexels.com/pt-br/foto/fotografia-da-pessoa-digitando-1181675/" - Foto de Christina Morillo no Pexels 
+</Text>,
+  <Text style={styles.textContent}>
+  "https://br.freepik.com/vetores/pessoas" - Pessoas vetor criado por pikisuperstar - br.freepik.com{"\n"}{"\n"}
+  "www.bensound.com" - Royalty Free Music from Bensound{"\n"}{"\n"}
 </Text>,
   ];
   return (

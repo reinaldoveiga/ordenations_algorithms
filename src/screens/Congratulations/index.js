@@ -40,9 +40,10 @@ const Congratulations = props => {
       <View style={styles.content}>
         <Text style={styles.textTop}>Parabéns!!!</Text>
         
-        <Lottie source={animation} autoPlay loop />
         <Text style={styles.textAlternative}>{content}</Text>
-
+        
+        <Lottie source={animation} autoPlay loop />
+      
         <Text style={styles.textEnd}>Você completou o nível {level}</Text>
         
         

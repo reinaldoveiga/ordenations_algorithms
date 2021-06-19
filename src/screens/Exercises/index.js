@@ -5,8 +5,7 @@ import {
   Image,
   KeyboardAvoidingView,
   Platform,
-  ScrollView,
-  WebView
+  ScrollView
 } from 'react-native';
 
 
@@ -23,18 +22,13 @@ import {
   Explanation,
   MultipleChoice,
   Video
-
 } from '../../components/Questions';
 
 import Tooltip from '../../components/Tooltip';
-import {general, colors} from '../../styles';
+import {colors} from '../../styles';
 import styles from './styles';
 
-//import Video from 'react-native-video';
-//import VideoPlayer from 'react-native-video-controls';
-
-import YouTube from 'react-native-youtube';
-
+import VideoPlayer from 'react-native-video-controls';
 
 export default function Exercises({navigation}) {
   const [showTips, setShowTips] = useState(false);
@@ -52,37 +46,50 @@ export default function Exercises({navigation}) {
 
 
   const imagens = {
-    //imagens missão 1
-    l3q1: require('../../assets/images/Level1/books.png'),
+    //imagens level 1
+    l1q1: require('../../assets/images/Level1/books.png'),
     
-    //imagens missão 2
-    l4q1: require('../../assets/images/Level2/tela2-n2.png'),
-    l4q2: require('../../assets/images/Level2/tela3-n2.png'),
-    l4q3: require('../../assets/images/Level2/tela4-n2.png'),
-    l4q4: require('../../assets/images/Level2/tela5-n2.png'),
+    //imagens level 2
+    l2q1: require('../../assets/images/Level2/tela2-n2.png'),
+    l2q2: require('../../assets/images/Level2/tela3-n2.png'),
+    l2q3: require('../../assets/images/Level2/tela4-n2.png'),
+    l2q4: require('../../assets/images/Level2/tela5-n2.png'),
     
-    //imagens missão 3
-    l5q1: require('../../assets/images/Level3/tela2-n3.png'),
-    l5q2: require('../../assets/images/Level3/tela3-n3.png'),
-    l5q3: require('../../assets/images/Level3/tela4-n3.png'),
-    l5q4: require('../../assets/images/Level3/tela5-n3.png'),
-    l5q5: require('../../assets/images/Level3/tela6-n3.png'),
-    l5q6: require('../../assets/images/Level3/tela7-n3.png'),
-    l5q7: require('../../assets/images/Level3/tela8-n3.png'),
-    l5q8: require('../../assets/images/Level3/tela9-n3.png'),
-    l5q9: require('../../assets/images/Level3/tela10-n3.png'),
-    l5q10: require('../../assets/images/Level3/tela11-n3.png'),
-    l5q11: require('../../assets/images/Level3/tela12-n3.png'),
-    l5q12: require('../../assets/images/Level3/tela13-n3.png'),
-    l5q13: require('../../assets/images/Level3/tela14-n3.png'),
-    l5q14: require('../../assets/images/Level3/tela15-n3.png')
+    //imagens level 3
+    l3q1: require('../../assets/images/Level3/tela2-n3.png'),
+    l3q2: require('../../assets/images/Level3/tela3-n3.png'),
+    l3q3: require('../../assets/images/Level3/tela4-n3.png'),
+    l3q4: require('../../assets/images/Level3/tela5-n3.png'),
+    l3q5: require('../../assets/images/Level3/tela6-n3.png'),
+    l3q6: require('../../assets/images/Level3/tela7-n3.png'),
+    l3q7: require('../../assets/images/Level3/tela8-n3.png'),
+    l3q8: require('../../assets/images/Level3/tela9-n3.png'),
+    l3q9: require('../../assets/images/Level3/tela10-n3.png'),
+    l3q10: require('../../assets/images/Level3/tela11-n3.png'),
+    l3q11: require('../../assets/images/Level3/tela12-n3.png'),
+    l3q12: require('../../assets/images/Level3/tela13-n3.png'),
+    l3q13: require('../../assets/images/Level3/tela14-n3.png'),
+    l3q14: require('../../assets/images/Level3/tela15-n3.png'),
+
+    //imagens level 4
+    l4q1: require('../../assets/images/Level4/dicionario.png'),
+    l4q2: require('../../assets/images/Level4/listaDuplicata.png'),
+    l4q3: require('../../assets/images/Level4/programando.png'),
+    l4q4: require('../../assets/images/Level4/tela10-n4.png'),
+    l4q5: require('../../assets/images/Level4/tela12-n4.png')
+    
   };
 
   const videos = {
-    //vídeo missão 2
-    //l4q5: require('../../assets/videos/Level2/video-insertion.mp4')
-    //l4q5: {uri: 'https://vjs.zencdn.net/v/oceans.mp4'} //talvez colocar o link aqui
-    l4q5: 'RhaEEE551i8'
+    //vídeo level 2
+    l2q5: require('../../assets/videos/Level2/insercao.mp4'),
+
+    //vídeo level 3
+    l3q15: require('../../assets/videos/Level3/quicksort.mp4'),
+
+    //video level 4
+    l4q6: require('../../assets/videos/Level4/comparacao.mp4')
+
   };
 
 
@@ -113,71 +120,40 @@ export default function Exercises({navigation}) {
     }
     return null;
   };
-//testando melhor forma de chamar os vídeos
+
   const showVideo = url => {
     if (url) {
-      //return <VideoPlayer disableBack resizeMode= 'contain' source={getVideos(url)} style={styles.statementVideo}/>;
-      //return <VideoPlayer disableBack source={getVideos(url)} style={styles.statementVideo} />;
-      //return <YouTube apikey='YOUR_API_KEY' play source={getVideos(url)} style={styles.statementVideo} />;
-     //return <WebView
-        //style={{flex:1}}
-        //javaScriptEnabled={true}
-       //source={getVideos(url)} style={styles.statementVideo}/>;
-       
-       
-       return <YouTube
-       //source={getVideos(url)}
-       apiKey= 'YOUR_API_KEY'
-       videoId={getVideos(url)} // The YouTube video ID
-       play // control playback of video with true/false
-       //fullscreen // control whether the video should play in fullscreen or inline
-       loop // control whether the video should loop when ended
-       //onReady={e => this.setState({ isReady: true })}
-       //onChangeState={e => this.setState({ status: e.state })}
-       //onChangeQuality={e => this.setState({ quality: e.quality })}
-       //onError={e => this.setState({ error: e.error })}
-       style={styles.statementVideo}
-       //style={{ alignSelf: 'stretch', height: 300 }}
-     />
+      return <VideoPlayer paused disableBack resizeMode= 'contain' source={getVideos(url)} style={styles.statementVideo}/>;
     }
     return null;
   };
 
+ 
   const viewOfContent = () => {
     const content = exercise.introduction.map(item => (
+     
       <View style={styles.statementImageConteiner}>
         <Text style={styles.contentText}>{item.text}</Text>
         {showImage(item.image.url)}
         
       </View>
     ));
-
+    
     content.push(
       <View style={styles.statementImageConteiner}>
         <Text style={styles.contentText}>{question.statement}</Text>
         {showImage(question.image.url)}
         {showVideo(question.video.url)}
       </View>
-    );
+      
+      );
 
     return content;
   };
 
-  function chooseQuestionRender() {
+  function chooseQuestionRender() {   
+   
     switch (question.type) {
-    //  case 'MULTIPLECHOICE':
-     //   return (
-      //    <MultipleChoice
-       //     step={step}
-        //    setSteps={setSteps}
-            
-         // />
-        //);
-
-      
-
-
-      
 
       case 'EXPLANATION':
         return <Explanation step={step} setSteps={setSteps} />;
@@ -185,7 +161,6 @@ export default function Exercises({navigation}) {
       case 'VIDEO':
         return <Video step={step} setSteps={setSteps} />;
      
-
       default:
         return null;
     }
@@ -243,7 +218,7 @@ export default function Exercises({navigation}) {
       
               ) : (
               <Text style={styles.defaultText}>
-                Leia atentamente cada questão. Em seguida, arraste a carta para o lado e verá
+                Leia atentamente cada quadro de informações. Em seguida, arraste a carta para o lado e verá
                 as próximas instruções.
               </Text>
             )}

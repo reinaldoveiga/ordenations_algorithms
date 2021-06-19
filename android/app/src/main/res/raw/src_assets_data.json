@@ -1,279 +1,685 @@
 [
-    {
-      "module": {
-        "id": 1,
-        "name": "Sorting Algorithms"
-      },
-      "questions": [
-        {
-          "_id": "5ea72647127b53001e9192b9",
-          "statement": "Frequentemente, os computadores devem ordenar listas de coisas. Por que é importante colocar as coisas em ordem?",
-          "image": {
-            "name": null,
-            "url": null
-          },
-          "video": {
-            "name": null,
-            "url": null
-          },
-          "type": "MULTIPLECHOICE",
-          "level": 1,
-          "alternatives": [
-            {
-              "correct": true,
-              "_id": "5ea72647127b53001e9192ba",
-              "text": "Para encontrar as coisas rapidamente"
-            },
-            {
-              "correct": false,
-              "_id": "5ea72647127b53001e9192bb",
-              "text": "Para deixar as coisas desorganizadas"
-            }
-           
-          ],
-          "createdAt": "2020-04-27T18:36:55.684Z",
-          "updatedAt": "2020-04-27T18:36:55.684Z",
-          "__v": 0
-        }
-      ],
-      "_id": "5ea72655127b53001e919336",
-      "title": "Introdução",
-      "description": "",
-      "introduction": [
-        {
-          "text": "Você sabia que os computadores são muitas vezes utilizados para colocar coisas em algum tipo de ordem? Por exemplo, podem colocar nomes em ordem alfabética,  e-mails por data, ou itens em ordem numérica.",
-          "image": {
-            "name": null,
-            "url": null
-          }
-        },
-        {
-          "text": "Classificar listas nos ajuda a encontrar as coisas rapidamente, e também facilita a identificação do maior e do menor valor de cada lista.",
-          "image": {
-            "_id": "5ea72649127b53001e9192d5",
-            "name": "books-1588012617750.png",
-            "url": "l3q1"
-          }
-        }
-      ],
-      "showCards": true,
-      "tips": "1. Responda todas as perguntas corretamente para completar a tarefa.",
-      "level": 1,
-      "content": "Entende a importância de ordenar informações",
-      "__v": 0
+  {
+    "module": {
+      "id": 1,
+      "name": "Sorting Algorithms"
     },
-
-
-
-    {
-      "module": {
-        "id": 1,
-        "name": "Sorting Algorithms"
+    "questions": [
+      {
+        "_id": "5ea72647127b53001e9192b9",
+        "statement": "Frequentemente, os computadores devem ordenar listas de coisas. Por que é importante colocar as coisas em ordem?",
+        "image": {
+          "name": null,
+          "url": null
+        },
+        "video": {
+          "name": null,
+          "url": null
+        },
+        "type": "MULTIPLECHOICE",
+        "level": 1,
+        "alternatives": [
+          {
+            "correct": true,
+            "_id": "5ea72647127b53001e9192ba",
+            "text": "Para encontrar as coisas rapidamente"
+          },
+          {
+            "correct": false,
+            "_id": "5ea72647127b53001e9192bb",
+            "text": "Para deixar as coisas desorganizadas"
+          }
+         
+        ],
+        "createdAt": "2020-04-27T18:36:55.684Z",
+        "updatedAt": "2020-04-27T18:36:55.684Z",
+        "__v": 0
+      }
+    ],
+    "_id": "5ea72655127b53001e919336",
+    "title": "Introdução",
+    "description": "",
+    "introduction": [
+      {
+        "text": "Você sabia que os computadores são muitas vezes utilizados para colocar coisas em algum tipo de ordem? Por exemplo, podem colocar nomes em ordem alfabética,  e-mails por data, ou itens em ordem numérica.",
+        "image": {
+          "name": null,
+          "url": null
+        }
       },
-      "questions": [
-        {
-          "_id": "5ea72648127b53001e9192c8",
-          "statement": "Observando as cartas abaixo...Onde você colocaria a carta 2 ?",
-          "image": {
-            "_id": "5ea7264d127b53001e9192ed",
-            "name": "tela4-n2-1588012621515.png",
-            "url": "l4q3"
-          },
-          "video": {
-            "name": null,
-            "url": null
-          },
-          "type": "MULTIPLECHOICE",
-          "level": 2,
-          "alternatives": [
-            {
-              "correct": false,
-              "_id": "5ea72648127b53001e9192c9",
-              "text": "A"
-            },
-            {
-              "correct": true,
-              "_id": "5ea72648127b53001e9192ca",
-              "text": "B"
-            },
-            {
-              "correct": false,
-              "_id": "5ea72648127b53001e9192cb",
-              "text": "C"
-            },
-            {
-              "correct": false,
-              "_id": "5ea72648127b53001e9192cc",
-              "text": "D"
-            },
-            {
-              "correct": false,
-              "_id": "5ea72648127b53001e9192cc",
-              "text": "E"
-            }
-          ],
-          "createdAt": "2020-04-27T18:36:56.583Z",
-          "updatedAt": "2020-04-27T18:36:56.583Z",
-          "__v": 0
+      {
+        "text": "Classificar listas nos ajuda a encontrar as coisas rapidamente, e também facilita a identificação do maior e do menor valor de cada lista.",
+        "image": {
+          "_id": "5ea72649127b53001e9192d5",
+          "name": "books-1588012617750.png",
+          "url": "l1q1"
+        }
+      }
+    ],
+    "showCards": true,
+    "tips": "",
+    "level": 1,
+    "content": "Entende a importância de ordenar informações",
+    "__v": 0
+  },
+
+
+
+
+
+
+  {
+    "module": {
+      "id": 1,
+      "name": "Sorting Algorithms"
+    },
+    "questions": [
+      {
+        "_id": "5ea72648127b53001e9192c8",
+        "statement": "Observando as cartas abaixo...Onde você colocaria a carta 2 ?",
+        "image": {
+          "_id": "5ea7264d127b53001e9192ed",
+          "name": "tela4-n2-1588012621515.png",
+          "url": "l2q3"
         },
-        {
-          "_id": "5ea72648127b53001e9192cd",
-          "statement": "Observando as cartas abaixo...Onde você colocaria a carta 6 ?",
-          "image": {
-            "_id": "5ea7264d127b53001e9192ed",
-            "name": "tela4-n2-1588012621515.png",
-            "url": "l4q4"
-          },
-          "video": {
-            "name": null,
-            "url": null
-          },
-          "type": "MULTIPLECHOICE",
-          "level": 2,
-          "alternatives": [
-            {
-              "correct": false,
-              "_id": "5ea72648127b53001e9192ce",
-              "text": "A"
-            },
-            {
-              "correct": false,
-              "_id": "5ea72648127b53001e9192cf",
-              "text": "B"
-            },
-            {
-              "correct": false,
-              "_id": "5ea72648127b53001e9192d0",
-              "text": "C"
-            },
-            {
-              "correct": true,
-              "_id": "5ea72648127b53001e9192d1",
-              "text": "D"
-            },
-            {
-              "correct": true,
-              "_id": "5ea72648127b53001e9192d2",
-              "text": "E"
-            }
-          ],
-          "createdAt": "2020-04-27T18:36:56.941Z",
-          "updatedAt": "2020-04-27T18:36:56.941Z",
-          "__v": 0
+        "video": {
+          "name": null,
+          "url": null
         },
+        "type": "MULTIPLECHOICE",
+        "level": 2,
+        "alternatives": [
+          {
+            "correct": false,
+            "_id": "5ea72648127b53001e9192c9",
+            "text": "A"
+          },
+          {
+            "correct": true,
+            "_id": "5ea72648127b53001e9192ca",
+            "text": "B"
+          },
+          {
+            "correct": false,
+            "_id": "5ea72648127b53001e9192cb",
+            "text": "C"
+          },
+          {
+            "correct": false,
+            "_id": "5ea72648127b53001e9192cc",
+            "text": "D"
+          },
+          {
+            "correct": false,
+            "_id": "5ea72648127b53001e9192cc",
+            "text": "E"
+          }
+        ],
+        "createdAt": "2020-04-27T18:36:56.583Z",
+        "updatedAt": "2020-04-27T18:36:56.583Z",
+        "__v": 0
+      },
+      {
+        "_id": "5ea72648127b53001e9192cd",
+        "statement": "Observando as cartas abaixo...Onde você colocaria a carta 6 ?",
+        "image": {
+          "_id": "5ea7264d127b53001e9192ed",
+          "name": "tela4-n2-1588012621515.png",
+          "url": "l2q4"
+        },
+        "video": {
+          "name": null,
+          "url": null
+        },
+        "type": "MULTIPLECHOICE",
+        "level": 2,
+        "alternatives": [
+          {
+            "correct": false,
+            "_id": "5ea72648127b53001e9192ce",
+            "text": "A"
+          },
+          {
+            "correct": false,
+            "_id": "5ea72648127b53001e9192cf",
+            "text": "B"
+          },
+          {
+            "correct": false,
+            "_id": "5ea72648127b53001e9192d0",
+            "text": "C"
+          },
+          {
+            "correct": true,
+            "_id": "5ea72648127b53001e9192d1",
+            "text": "D"
+          },
+          {
+            "correct": true,
+            "_id": "5ea72648127b53001e9192d2",
+            "text": "E"
+          }
+        ],
+        "createdAt": "2020-04-27T18:36:56.941Z",
+        "updatedAt": "2020-04-27T18:36:56.941Z",
+        "__v": 0
+      },
 
 
 
+
+      {
+        "_id": "5ea72654127b53001e91932t",
+        "statement": "Você notou que faz várias comparações para descobrir em qual posição irá colocar a carta? Veja o vídeo a seguir para aprender mais.",
+        "type": "VIDEO",
+        "level": 2,
+        "image": {
+          "name": null,
+          "url": null
+        },
+        "video": {
+          "_id": "5ea72654127b53001e91932u",
+          "name": "insercao-1588012628459.mp4",
+          "url": "l2q5"
+        },
+        "createdAt": "2020-04-27T18:37:08.573Z",
+        "updatedAt": "2020-04-27T18:37:08.573Z",
+        "__v": 0
+      }
+
+
+
+
+
+    ],
+    "_id": "5ea72656127b53001e919337",
+    "title": "Ordenação por Inserção",
+    "description": "",
+    "introduction": [
+      {
+        "text": "Agora vamos conhecer a ordenação por Inserção(Insertion Sort)",
+        "image": {
+          "name": null,
+          "url": null
+        }
+      },
+
+      {
+        "text": "A ordenação por inserção remove cada objeto de um grupo desordenado e o insere na sua posição correta em uma lista crescente (veja a figura abaixo).",
+        "image": {
+          "_id": "5ea7264d127b53001e9192e9",
+          "name": "tela2-n2-1588012620919.png",
+          "url": "l2q1"
+        } 
+      },
+
+      {
+        "text": "A cada inserção, o grupo de objetos desordenados diminui e a lista ordenada aumenta até que, finalmente, toda a lista esteja ordenada.",
+        "image": {
+          "_id": "5ea7264d127b53001e9192eb",
+          "name": "tela3-n2-1588012621222.png",
+          "url": "l2q2"
+        }
+        
+      }
+    ],
+    "showCards": true,
+    "tips": "",
+    "level": 2,
+    "content":"Você tem ideia de como funciona a Ordenação por Inserção (Insertion Sort)",
+    "__v": 0
+  },
+
+
+
+
+
+
+
+  {
+    "module": {
+      "id": 1,
+      "name": "Sorting Algorithms"
+    },
+    "questions": [
+      {
+        "_id": "5ea72649127b53001e9192d4",
+        "statement": "Observando as cartas abaixo...Quais cartas são menores que a carta número 4 ?",
+        "image": {
+          "_id": "5ea72649127b53001e9192d5",
+          "name": "tela4-n2-1588012617750.png",
+          "url": "l3q3"
+        },
+        "video": {
+          "name": null,
+          "url": null
+        },
+        "type": "MULTIPLECHOICE",
+        "level": 3,
+        "alternatives": [
+          {
+            
+              "correct": true,
+              "_id": "5ea72652127b53001e91930d",
+              "text": "2, 3, 1"
+            },
+            {
+              "correct": false,
+              "_id": "5ea72652127b53001e91930e",
+              "text": "4, 2, 7"
+            },
+            {
+              "correct": false,
+              "_id": "5ea72652127b53001e91930f",
+              "text": "2, 3, 5"
+            },
+            {
+              "correct": false,
+              "_id": "5ea72652127b53001e919310",
+              "text": "6, 5, 7"
+            }
+        ],
+        "createdAt": "2020-04-27T18:36:57.996Z",
+        "updatedAt": "2020-04-27T18:36:57.996Z",
+        "__v": 0
+      },
 
         {
-          "_id": "5ea72654127b53001e91932t",
-          "statement": "Você notou que faz várias comparações para descobrir em qual posição irá colocar a carta? Veja o vídeo a seguir para aprender mais.",
+          "_id": "5ea72654127b53001e91932d",
+          "statement": "As cartas menores ficam à esquerda e as maiores ficam à direita da carta número 4.",
           "type": "EXPLANATION",
-          "level": 2,
+          "level": 3,
           "image": {
-            "name": null,
-            "url": null
+            "_id": "5ea72654127b53001e91932e",
+            "name": "tela5-n3-1588012628459.png",
+            "url": "l3q4"
           },
           "video": {
-            "_id": "5ea72654127b53001e91932u",
-            "name": "video-insertion-1588012628459.mp4",
-            "url": "l4q5"
+            "name": null,
+            "url": null
           },
           "createdAt": "2020-04-27T18:37:08.573Z",
           "updatedAt": "2020-04-27T18:37:08.573Z",
           "__v": 0
-        }
+        },
 
-
-
-
-
-      ],
-      "_id": "5ea72656127b53001e919337",
-      "title": "Ordenação por Inserção",
-      "description": "",
-      "introduction": [
         {
-          "text": "Agora vamos conhecer a ordenação por Inserção(Insertion Sort)",
+          "_id": "5ea72654127b53001e91932f",
+          "statement": "Considerando o grupo da esquerda da carta 4, vamos sortear outra vez uma das cartas. Por exemplo: suponha que a carta sorteada seja a carta número 2. ",
+          "type": "EXPLANATION",
+          "level": 3,
           "image": {
+            "_id": "5ea72654127b53001e91932g",
+            "name": "tela6-n3-1588012628459.png",
+            "url": "l3q5"
+          },
+          "video": {
             "name": null,
             "url": null
-          }
+          },
+          "createdAt": "2020-04-27T18:37:08.573Z",
+          "updatedAt": "2020-04-27T18:37:08.573Z",
+          "__v": 0
         },
 
-        {
-          "text": "A ordenação por inserção remove cada objeto de um grupo desordenado e o insere na sua posição correta em uma lista crescente (veja a figura abaixo).",
-          "image": {
-            "_id": "5ea7264d127b53001e9192e9",
-            "name": "tela2-n2-1588012620919.png",
-            "url": "l4q1"
-          } 
+      {
+        
+        "_id": "5ea72649127b53001e9192d4",
+        "statement": "Observando as cartas abaixo...Qual a carta que vai ficar a direita da carta 2 ?",
+        "image": {
+          "_id": "5ea72649127b53001e9192d6",
+          "name": "tela7-n3-1588012617750.png",
+          "url": "l3q6"
         },
+        "video": {
+          "name": null,
+          "url": null
+        },
+        "type": "MULTIPLECHOICE",
+        "level": 3,
+        "alternatives": [
+          {
+              
+              "correct": true,
+              "_id": "5ea72652127b53001e91930d",
+              "text": "3"
+            },
+            {
+              "correct": false,
+              "_id": "5ea72652127b53001e91930e",
+              "text": "1"
+            }
+        ], 
+        "createdAt": "2020-04-27T18:36:58.310Z",
+        "updatedAt": "2020-04-27T18:36:58.310Z",
+        "__v": 0
+      },
 
-        {
-          "text": "A cada inserção, o grupo de objetos desordenados diminui e a lista ordenada aumenta até que, finalmente, toda a lista esteja ordenada.",
-          "image": {
-            "_id": "5ea7264d127b53001e9192eb",
-            "name": "tela3-n2-1588012621222.png",
-            "url": "l4q2"
-          }
-          
+      {
+        "_id": "5ea72654127b53001e91932h",
+        "statement": "Seguindo o algoritmo que estamos utilizando, os números menores ficam à esquerda e os números maiores ficam à direita.",
+        "type": "EXPLANATION",
+        "level": 3,
+        "image": {
+          "_id": "5ea72654127b53001e91932i",
+          "name": "tela8-n3-1588012628459.png",
+          "url": "l3q7"
+        },
+        "video": {
+          "name": null,
+          "url": null
+        },
+        "createdAt": "2020-04-27T18:37:08.573Z",
+        "updatedAt": "2020-04-27T18:37:08.573Z",
+        "__v": 0
+      },
+
+      {
+        "_id": "5ea72654127b53001e91932j",
+        "statement": "Observe que os números que estão à esquerda do número 4 já estão ordenados. Agora só precisamos ordenar os números que estão à direita do número 4.",
+        "type": "EXPLANATION",
+        "level": 3,
+        "image": {
+          "_id": "5ea72654127b53001e91932k",
+          "name": "tela9-n3-1588012628459.png",
+          "url": "l3q8"
+        },
+        "video": {
+          "name": null,
+          "url": null
+        },
+        "createdAt": "2020-04-27T18:37:08.573Z",
+        "updatedAt": "2020-04-27T18:37:08.573Z",
+        "__v": 0
+      },
+
+      {
+        "_id": "5ea72654127b53001e91932l",
+        "statement": "Observe que os números que estão à esquerda do número 4 já estão ordenados. Agora só precisamos ordenar os números que estão à direita do número 4.",
+        "type": "EXPLANATION",
+        "level": 3,
+        "image": {
+          "_id": "5ea72654127b53001e91932m",
+          "name": "tela10-n3-1588012628459.png",
+          "url": "l3q9"
+        },
+        "video": {
+          "name": null,
+          "url": null
+        },
+        "createdAt": "2020-04-27T18:37:08.573Z",
+        "updatedAt": "2020-04-27T18:37:08.573Z",
+        "__v": 0
+      },
+
+      {
+        
+        "_id": "5ea72649127b53001e9192d5",
+        "statement": "Observando as cartas abaixo...Qual carta ficaria à esquerda da carta 5 ?",
+        "image": {
+          "_id": "5ea72649127b53001e9192d6",
+          "name": "tela11-n3-1588012617750.png",
+          "url": "l3q10"
+        },
+        "video": {
+          "name": null,
+          "url": null
+        },
+        "type": "MULTIPLECHOICE",
+        "level": 3,
+        "alternatives": [
+          {
+              
+              "correct": false,
+              "_id": "5ea72652127b53001e91930d",
+              "text": "6"
+            },
+            {
+              "correct": false,
+              "_id": "5ea72652127b53001e91930e",
+              "text": "7"
+            },
+            {
+              "correct": true,
+              "_id": "5ea72652127b53001e91930f",
+              "text": "Nenhuma"
+            }
+        ], 
+        "createdAt": "2020-04-27T18:36:58.310Z",
+        "updatedAt": "2020-04-27T18:36:58.310Z",
+        "__v": 0
+      },
+
+      {
+        "_id": "5ea72654127b53001e91932n",
+        "statement": "Seguindo o algoritmo que estamos utilizando, os números menores ficam à esquerda e os números maiores ficam à direita. Portanto as cartas 6 e 7 ficaram a direita da carta 5 e nennhuma carta ficará à esquerda.",
+        "type": "EXPLANATION",
+        "level": 3,
+        "image": {
+          "_id": "5ea72654127b53001e91932o",
+          "name": "tela12-n3-1588012628459.png",
+          "url": "l3q11"
+        },
+        "video": {
+          "name": null,
+          "url": null
+        },
+        "createdAt": "2020-04-27T18:37:08.573Z",
+        "updatedAt": "2020-04-27T18:37:08.573Z",
+        "__v": 0
+      },
+
+      {
+        "_id": "5ea72654127b53001e91932p",
+        "statement": "Considerando o grupo que restou, vamos sortear outra vez uma das cartas. Por exemplo: suponha que a carta sorteada seja a carta número 7. ",
+        "type": "EXPLANATION",
+        "level": 3,
+        "image": {
+          "_id": "5ea72654127b53001e91932q",
+          "name": "tela13-n3-1588012628459.png",
+          "url": "l3q12"
+        },
+        "video": {
+          "name": null,
+          "url": null
+        },
+        "createdAt": "2020-04-27T18:37:08.573Z",
+        "updatedAt": "2020-04-27T18:37:08.573Z",
+        "__v": 0
+      },
+
+      {
+        
+        "_id": "5ea72649127b53001e9192d6",
+        "statement": "Observando as cartas abaixo...Qual carta ficaria à esquerda da carta 7 ?",
+        "image": {
+          "_id": "5ea72649127b53001e9192d6",
+          "name": "tela14-n3-1588012617750.png",
+          "url": "l3q13"
+        },
+        "video": {
+          "name": null,
+          "url": null
+        },
+        "type": "MULTIPLECHOICE",
+        "level": 3,
+        "alternatives": [
+          {
+              
+              "correct": true,
+              "_id": "5ea72652127b53001e91930d",
+              "text": "6"
+            },
+            {
+              "correct": false,
+              "_id": "5ea72652127b53001e91930e",
+              "text": "Nenhuma"
+            }
+        ], 
+        "createdAt": "2020-04-27T18:36:58.310Z",
+        "updatedAt": "2020-04-27T18:36:58.310Z",
+        "__v": 0
+      },
+
+      {
+        "_id": "5ea72654127b53001e91932r",
+        "statement": "Observe agora que todas as cartas estão ordenadas.",
+        "type": "EXPLANATION",
+        "level": 3,
+        "image": {
+          "_id": "5ea72654127b53001e91932s",
+          "name": "tela15-n3-1588012628459.png",
+          "url": "l3q14"
+        },
+        "video": {
+          "name": null,
+          "url": null
+        },
+        "createdAt": "2020-04-27T18:37:08.573Z",
+        "updatedAt": "2020-04-27T18:37:08.573Z",
+        "__v": 0
+      },
+
+      {
+        "_id": "5ea72654127b53001e91932t1",
+        "statement": "Você notou que vai sorteando uma carta e depois compara cada uma das cartas restantes com ela para descobrir em qual posição irá colocar a carta. Veja o vídeo a seguir para aprender mais sobre o algoritmo de ordenação QuickSort.",
+        "type": "VIDEO",
+        "level": 3,
+        "image": {
+          "name": null,
+          "url": null
+        },
+        "video": {
+          "_id": "5ea72654127b53001e91932u",
+          "name": "quicksort-1588012628459.mp4",
+          "url": "l3q15"
+        },
+        "createdAt": "2020-04-27T18:37:08.573Z",
+        "updatedAt": "2020-04-27T18:37:08.573Z",
+        "__v": 0
+      }
+    ],
+
+    "_id": "5ea72656127b53001e919342",
+    "title": "Quicksort",
+    "description": "",
+    "introduction": [
+      {
+        "text": "Agora vamos conhecer o método de ordenação rápida (QUICKSORT)",
+        "image": {
+          "name": null,
+          "url": null
         }
-      ],
-      "showCards": true,
-      "tips": "1. Responda todas as perguntas corretamente para completar a tarefa.",
-      "level": 2,
-      "content":"Entende como ordenar utilizando a ordenação por inserção",
+      },
+      {
+        "text": "Considere o conjunto de cartas abaixo e que está desordenado.",
+        "image": {
+          "_id": "5ea72651127b53001e919309",
+          "name": "tela2-n3-1588012625786.png",
+          "url": "l3q1"
+        }
+      },
+      {
+        "text": "Vamos sortear agora uma das cartas. Suponha que seja sorteada a carta número 4. Agora você deve comparar todas as cartas com a carta número 4.",
+        "image": {
+          "_id": "5ea72652127b53001e91930b",
+          "name": "tela3-n3-1588012626117.png",
+          "url": "l3q2"
+        }
+      }
+    ],
+    "showCards": true,
+    "tips": "",
+    "level": 3,
+    "content":"Você tem ideia de como funciona a Ordenação Rápida (Quicksort)",
+    "__v": 0
+  },
+
+
+
+
+
+
+  {
+    "module": {
+      "id": 1,
+      "name": "Sorting Algorithms"
+    },
+    "questions": [
+      {
+      "_id": "5ea72654127b53001e91932t2",
+      "statement": "Veja o vídeo a seguir para saber quantas comparações são realizadas pelos algoritmos e qual é o algoritmo mais rápido.",
+      "type": "VIDEO",
+      "level": 4,
+      "image": {
+        "name": null,
+        "url": null
+      },
+      "video": {
+        "_id": "5ea72654127b53001e91932u",
+        "name": "comparacao-1588012628459.mp4",
+        "url": "l4q6"
+      },
+      "createdAt": "2020-04-27T18:37:08.573Z",
+      "updatedAt": "2020-04-27T18:37:08.573Z",
       "__v": 0
     },
 
-
-
-
-
-
-
     {
-      "module": {
-        "id": 1,
-        "name": "Sorting Algorithms"
+      "_id": "5ea72649127b53001e9192d41",
+      "statement": "De acordo com o vídeo, qual método de ordenação foi o mais rápido ?",
+      "image": {
+          "name": null,
+          "url": null
+        },
+        "video": {
+          "name": null,
+          "url": null
+        },
+        "type": "MULTIPLECHOICE",
+        "level": 4,
+        "alternatives": [
+          {
+            
+              "correct": true,
+              "_id": "5ea72652127b53001e91930d",
+              "text": "Quicksort"
+            },
+            {
+              "correct": false,
+              "_id": "5ea72652127b53001e91930e",
+              "text": "Insertion Sort"
+            }
+        ],
+        "createdAt": "2020-04-27T18:36:57.996Z",
+        "updatedAt": "2020-04-27T18:36:57.996Z",
+        "__v": 0
       },
-      "questions": [
-        {
-          "_id": "5ea72649127b53001e9192d4",
-          "statement": "Observando as cartas abaixo...Quais cartas são menores que a carta número 4 ?",
-          "image": {
-            "_id": "5ea72649127b53001e9192d5",
-            "name": "tela4-n2-1588012617750.png",
-            "url": "l5q3"
+    
+      {
+        "_id": "5ea72649127b53001e9192d41",
+        "statement": "De acordo com o vídeo, qual método de ordenação demanda mais comparações ?",
+        "image": {
+            "name": null,
+            "url": null
           },
           "video": {
             "name": null,
             "url": null
           },
           "type": "MULTIPLECHOICE",
-          "level": 3,
+          "level": 4,
           "alternatives": [
             {
               
-                "correct": true,
+                "correct": false,
                 "_id": "5ea72652127b53001e91930d",
-                "text": "2, 3, 1"
+                "text": "Quicksort"
               },
               {
-                "correct": false,
+                "correct": true,
                 "_id": "5ea72652127b53001e91930e",
-                "text": "4, 2, 7"
-              },
-              {
-                "correct": false,
-                "_id": "5ea72652127b53001e91930f",
-                "text": "2, 3, 5"
-              },
-              {
-                "correct": false,
-                "_id": "5ea72652127b53001e919310",
-                "text": "6, 5, 7"
+                "text": "Insertion Sort"
               }
           ],
           "createdAt": "2020-04-27T18:36:57.996Z",
@@ -281,295 +687,223 @@
           "__v": 0
         },
 
-          {
-            "_id": "5ea72654127b53001e91932d",
-            "statement": "As cartas menores ficam à esquerda e as maiores ficam à direita da carta número 4.",
-            "type": "EXPLANATION",
-            "level": 3,
-            "image": {
-              "_id": "5ea72654127b53001e91932e",
-              "name": "tela5-n3-1588012628459.png",
-              "url": "l5q4"
+        {
+          "_id": "5ea72654127b53001e919321",
+          "statement": "É bem mais fácil encontrar informações quando elas estão ordenadas. Você já imaginou como seria dificil encontrar o significado de uma palavra em um dicionário se as palavras não estivessem em ordem alfabética? ",
+          "type": "EXPLANATION",
+          "level": 4,
+          "image": {
+            "_id": "5ea72654127b53001e919322",
+            "name": "dicionario-1588012628459.png",
+            "url": "l4q1"
+          },
+          "video": {
+            "name": null,
+            "url": null
+          },
+          "createdAt": "2020-04-27T18:37:08.573Z",
+          "updatedAt": "2020-04-27T18:37:08.573Z",
+          "__v": 0
+        },
+
+        {
+          "_id": "5ea72654127b53001e919324",
+          "statement": "Por isso é importante a utilização da ordenação, pois facilita a localização de uma informação específica e também a identificação de duplicadas (ex: um nome que aparece mais de uma vez em uma lista).",
+          "type": "EXPLANATION",
+          "level": 4,
+          "image": {
+            "_id": "5ea72654127b53001e919325",
+            "name": "listaDuplicata-1588012628459.png",
+            "url": "l4q2"
+          },
+          "video": {
+            "name": null,
+            "url": null
+          },
+          "createdAt": "2020-04-27T18:37:08.573Z",
+          "updatedAt": "2020-04-27T18:37:08.573Z",
+          "__v": 0
+        },
+
+        {
+          "_id": "5ea72654127b53001e919326",
+          "statement": "Os computadores gastam muito tempo ordenando as coisas. Para fazer isso de forma mais rápida, eles devem ser programados. Deve-se especificar o passo a passo que será seguido para resolver o problema da ordenação.",
+          "type": "EXPLANATION",
+          "level": 4,
+          "image": {
+            "_id": "5ea72654127b53001e919327",
+            "name": "programando-1588012628459.png",
+            "url": "l4q3"
+          },
+          "video": {
+            "name": null,
+            "url": null
+          },
+          "createdAt": "2020-04-27T18:37:08.573Z",
+          "updatedAt": "2020-04-27T18:37:08.573Z",
+          "__v": 0
+        },
+
+        {
+          "_id": "5ea72654127b53001e919328",
+          "statement": "Vimos que a ordenação pode ser feita de várias formas. Essas formas de ordenar são chamadas de algoritmos de ordenação. Vimos, por exemplo, no Nível 2 o algoritmo de ordenação por inserção (Insertion Sort) e no Nível 3 o algoritmo de ordenação rápida ou Quicksort.",
+          "type": "EXPLANATION",
+          "level": 4,
+          "image": {
+            "name":null,
+            "url": null
+          },
+          "video": {
+            "name": null,
+            "url": null
+          },
+          "createdAt": "2020-04-27T18:37:08.573Z",
+          "updatedAt": "2020-04-27T18:37:08.573Z",
+          "__v": 0
+        },
+
+        {
+          "_id": "5ea72654127b53001e919329",
+          "statement": "A ordenação por inserção pode ser um dos métodos mais lentos, porém ele pode ser útil em situações especiais. Ele pode ser utilizado por exemplo, para colocar listas pequenas em ordem quando já estão quase ordenadas.",
+          "type": "EXPLANATION",
+          "level": 4,
+          "image": {
+            "name":null,
+            "url": null
+          },
+          "video": {
+            "name": null,
+            "url": null
+          },
+          "createdAt": "2020-04-27T18:37:08.573Z",
+          "updatedAt": "2020-04-27T18:37:08.573Z",
+          "__v": 0
+        },
+
+
+        {
+          "_id": "5ea72654127b53001e9193210",
+          "statement": "Você lembra que no método de ordenação Quicksort a gente dividia o conjunto de números em grupos menores e, em seguida ficava repetindo o mesmo passo a passo até o conjunto de números ser ordenado? Esse conceito é chamado de recursão.",
+          "type": "EXPLANATION",
+          "level": 4,
+          "image": {
+            "_id": "5ea72654127b53001e9193211",
+            "name": "tela10-n4-1588012628459.png",
+            "url": "l4q4"
+          },
+          "video": {
+            "name": null,
+            "url": null
+          },
+          "createdAt": "2020-04-27T18:37:08.573Z",
+          "updatedAt": "2020-04-27T18:37:08.573Z",
+          "__v": 0
+        },
+
+        {
+          "_id": "5ea72654127b53001e9193212",
+          "statement": "Você notou que para ordenar com o Quicksort a lista era dividida em partes menores e se aplicava em cada parte o mesmo tipo de ordenação ?",
+          "type": "EXPLANATION",
+          "level": 4,
+          "image": {
+            "name":null,
+            "url": null
+          },
+          "video": {
+            "name": null,
+            "url": null
+          },
+          "createdAt": "2020-04-27T18:37:08.573Z",
+          "updatedAt": "2020-04-27T18:37:08.573Z",
+          "__v": 0
+        },
+
+        {
+          "_id": "5ea72654127b53001e9193213",
+          "statement": "Lembre que em cada ordenação se escolhia uma carta e se via quais as cartas menores e as maiores que ela até que restasse apenas uma carta. Esse princípio de dividir o problema em partes até resolvê-lo por completo é chamado de Divisão e Conquista.",
+          "type": "EXPLANATION",
+          "level": 4,
+          "image": {
+            "_id": "5ea72654127b53001e9193214",
+            "name": "tela12-n4-1588012628459.png",
+            "url": "l4q5"
+          },
+          "video": {
+            "name": null,
+            "url": null
+          },
+          "createdAt": "2020-04-27T18:37:08.573Z",
+          "updatedAt": "2020-04-27T18:37:08.573Z",
+          "__v": 0
+        },
+
+        {
+          "_id": "5ea72654127b53001e9193215",
+          "statement": "Segundo observamos no vídeo e segundo estudos da Ciência da Computação, o Quicksort é mais rápido que a Ordenação por Inserção.",
+          "type": "EXPLANATION",
+          "level": 4,
+          "image": {
+            "name":null,
+            "url": null
+          },
+          "video": {
+            "name": null,
+            "url": null
+          },
+          "createdAt": "2020-04-27T18:37:08.573Z",
+          "updatedAt": "2020-04-27T18:37:08.573Z",
+          "__v": 0
+        },
+
+        {
+          "_id": "5ea72649127b53001e9192d41",
+          "statement": "Se você tiver de mandar um computador  colocar em ordem alfabética 1000 fichas e quiser que isso seja feito mais rápido, qual algoritmo utilizaria ?",
+          "image": {
+              "name": null,
+              "url": null
             },
             "video": {
               "name": null,
               "url": null
             },
-            "createdAt": "2020-04-27T18:37:08.573Z",
-            "updatedAt": "2020-04-27T18:37:08.573Z",
+            "type": "MULTIPLECHOICE",
+            "level": 4,
+            "alternatives": [
+              {
+                
+                  "correct": true,
+                  "_id": "5ea72652127b53001e91930d",
+                  "text": "Quicksort"
+                },
+                {
+                  "correct": false,
+                  "_id": "5ea72652127b53001e91930e",
+                  "text": "Insertion Sort"
+                }
+            ],
+            "createdAt": "2020-04-27T18:36:57.996Z",
+            "updatedAt": "2020-04-27T18:36:57.996Z",
             "__v": 0
-          },
-
-          {
-            "_id": "5ea72654127b53001e91932f",
-            "statement": "Considerando o grupo da esquerda da carta 4, vamos sortear outra vez uma das cartas. Por exemplo: suponha que a carta sorteada seja a carta número 2. ",
-            "type": "EXPLANATION",
-            "level": 3,
-            "image": {
-              "_id": "5ea72654127b53001e91932g",
-              "name": "tela6-n3-1588012628459.png",
-              "url": "l5q5"
-            },
-            "video": {
-              "name": null,
-              "url": null
-            },
-            "createdAt": "2020-04-27T18:37:08.573Z",
-            "updatedAt": "2020-04-27T18:37:08.573Z",
-            "__v": 0
-          },
-
-        {
-          
-          "_id": "5ea72649127b53001e9192d4",
-          "statement": "Observando as cartas abaixo...Qual a carta que vai ficar a direita da carta 2 ?",
-          "image": {
-            "_id": "5ea72649127b53001e9192d6",
-            "name": "tela7-n3-1588012617750.png",
-            "url": "l5q6"
-          },
-          "video": {
-            "name": null,
-            "url": null
-          },
-          "type": "MULTIPLECHOICE",
-          "level": 3,
-          "alternatives": [
-            {
-                
-                "correct": true,
-                "_id": "5ea72652127b53001e91930d",
-                "text": "3"
-              },
-              {
-                "correct": false,
-                "_id": "5ea72652127b53001e91930e",
-                "text": "1"
-              }
-          ], 
-          "createdAt": "2020-04-27T18:36:58.310Z",
-          "updatedAt": "2020-04-27T18:36:58.310Z",
-          "__v": 0
-        },
-
-        {
-          "_id": "5ea72654127b53001e91932h",
-          "statement": "Seguindo o algoritmo que estamos utilizando, os números menores ficam à esquerda e os números maiores ficam à direita.",
-          "type": "EXPLANATION",
-          "level": 3,
-          "image": {
-            "_id": "5ea72654127b53001e91932i",
-            "name": "tela8-n3-1588012628459.png",
-            "url": "l5q7"
-          },
-          "video": {
-            "name": null,
-            "url": null
-          },
-          "createdAt": "2020-04-27T18:37:08.573Z",
-          "updatedAt": "2020-04-27T18:37:08.573Z",
-          "__v": 0
-        },
-
-        {
-          "_id": "5ea72654127b53001e91932j",
-          "statement": "Observe que os números que estão à esquerda do número 4 já estão ordenados. Agora só precisamos ordenar os números que estão à direita do número 4.",
-          "type": "EXPLANATION",
-          "level": 3,
-          "image": {
-            "_id": "5ea72654127b53001e91932k",
-            "name": "tela9-n3-1588012628459.png",
-            "url": "l5q8"
-          },
-          "video": {
-            "name": null,
-            "url": null
-          },
-          "createdAt": "2020-04-27T18:37:08.573Z",
-          "updatedAt": "2020-04-27T18:37:08.573Z",
-          "__v": 0
-        },
-
-        {
-          "_id": "5ea72654127b53001e91932l",
-          "statement": "Observe que os números que estão à esquerda do número 4 já estão ordenados. Agora só precisamos ordenar os números que estão à direita do número 4.",
-          "type": "EXPLANATION",
-          "level": 3,
-          "image": {
-            "_id": "5ea72654127b53001e91932m",
-            "name": "tela10-n3-1588012628459.png",
-            "url": "l5q9"
-          },
-          "video": {
-            "name": null,
-            "url": null
-          },
-          "createdAt": "2020-04-27T18:37:08.573Z",
-          "updatedAt": "2020-04-27T18:37:08.573Z",
-          "__v": 0
-        },
-
-        {
-          
-          "_id": "5ea72649127b53001e9192d5",
-          "statement": "Observando as cartas abaixo...Qual carta ficaria à esquerda da carta 5 ?",
-          "image": {
-            "_id": "5ea72649127b53001e9192d6",
-            "name": "tela11-n3-1588012617750.png",
-            "url": "l5q10"
-          },
-          "video": {
-            "name": null,
-            "url": null
-          },
-          "type": "MULTIPLECHOICE",
-          "level": 3,
-          "alternatives": [
-            {
-                
-                "correct": false,
-                "_id": "5ea72652127b53001e91930d",
-                "text": "6"
-              },
-              {
-                "correct": false,
-                "_id": "5ea72652127b53001e91930e",
-                "text": "7"
-              },
-              {
-                "correct": true,
-                "_id": "5ea72652127b53001e91930f",
-                "text": "Nenhuma"
-              }
-          ], 
-          "createdAt": "2020-04-27T18:36:58.310Z",
-          "updatedAt": "2020-04-27T18:36:58.310Z",
-          "__v": 0
-        },
-
-        {
-          "_id": "5ea72654127b53001e91932n",
-          "statement": "Seguindo o algoritmo que estamos utilizando, os números menores ficam à esquerda e os números maiores ficam à direita. Portanto as cartas 6 e 7 ficaram a direita da carta 5 e nennhuma carta ficará à esquerda.",
-          "type": "EXPLANATION",
-          "level": 3,
-          "image": {
-            "_id": "5ea72654127b53001e91932o",
-            "name": "tela12-n3-1588012628459.png",
-            "url": "l5q11"
-          },
-          "video": {
-            "name": null,
-            "url": null
-          },
-          "createdAt": "2020-04-27T18:37:08.573Z",
-          "updatedAt": "2020-04-27T18:37:08.573Z",
-          "__v": 0
-        },
-
-        {
-          "_id": "5ea72654127b53001e91932p",
-          "statement": "Considerando o grupo que restou, vamos sortear outra vez uma das cartas. Por exemplo: suponha que a carta sorteada seja a carta número 7. ",
-          "type": "EXPLANATION",
-          "level": 3,
-          "image": {
-            "_id": "5ea72654127b53001e91932q",
-            "name": "tela13-n3-1588012628459.png",
-            "url": "l5q12"
-          },
-          "video": {
-            "name": null,
-            "url": null
-          },
-          "createdAt": "2020-04-27T18:37:08.573Z",
-          "updatedAt": "2020-04-27T18:37:08.573Z",
-          "__v": 0
-        },
-
-        {
-          
-          "_id": "5ea72649127b53001e9192d6",
-          "statement": "Observando as cartas abaixo...Qual carta ficaria à esquerda da carta 7 ?",
-          "image": {
-            "_id": "5ea72649127b53001e9192d6",
-            "name": "tela14-n3-1588012617750.png",
-            "url": "l5q13"
-          },
-          "video": {
-            "name": null,
-            "url": null
-          },
-          "type": "MULTIPLECHOICE",
-          "level": 3,
-          "alternatives": [
-            {
-                
-                "correct": true,
-                "_id": "5ea72652127b53001e91930d",
-                "text": "6"
-              },
-              {
-                "correct": false,
-                "_id": "5ea72652127b53001e91930e",
-                "text": "Nenhuma"
-              }
-          ], 
-          "createdAt": "2020-04-27T18:36:58.310Z",
-          "updatedAt": "2020-04-27T18:36:58.310Z",
-          "__v": 0
-        },
-
-        {
-          "_id": "5ea72654127b53001e91932r",
-          "statement": "Observe agora que todas as cartas estão ordenadas.",
-          "type": "EXPLANATION",
-          "level": 3,
-          "image": {
-            "_id": "5ea72654127b53001e91932s",
-            "name": "tela15-n3-1588012628459.png",
-            "url": "l5q14"
-          },
-          "video": {
-            "name": null,
-            "url": null
-          },
-          "createdAt": "2020-04-27T18:37:08.573Z",
-          "updatedAt": "2020-04-27T18:37:08.573Z",
-          "__v": 0
-        }  
-      ],
-
-      "_id": "5ea72656127b53001e919342",
-      "title": "Quicksort",
-      "description": "",
-      "introduction": [
-        {
-          "text": "Agora vamos conhecer o método de ordenação rápida (QUICKSORT)",
-          "image": {
-            "name": null,
-            "url": null
           }
-        },
-        {
-          "text": "Considere o conjunto de cartas abaixo e que está desordenado.",
-          "image": {
-            "_id": "5ea72651127b53001e919309",
-            "name": "tela2-n3-1588012625786.png",
-            "url": "l5q1"
-          }
-        },
-        {
-          "text": "Vamos sortear agora uma das cartas. Suponha que seja sorteada a carta número 4. Agora você deve comparar todas as cartas com a carta número 4.",
-          "image": {
-            "_id": "5ea72652127b53001e91930b",
-            "name": "tela3-n3-1588012626117.png",
-            "url": "l5q2"
-          }
+    ],
+
+    "_id": "5ea72656127b53001e919342",
+    "title": "Comparação dos Algoritmos",
+    "description": "",
+    "introduction": [
+      {
+        "text": "Agora vamos comparar os métodos\n Ordenação por Inserção e Quicksort",
+        "image": {
+          "name": null,
+          "url": null
         }
-      ],
-      "showCards": true,
-      "tips": "1. Responda todas as perguntas corretamente para completar a tarefa.",
-      "level": 3,
-      "content":"Entende como ordenar utilizando o método de ordenação Quicksort",
-      "__v": 0
-    }
-  ]
+      }
+      
+    ],
+    "showCards": true,
+    "tips": "",
+    "level": 4,
+    "content":"Entende que alguns algoritmos de ordenação são mais eficientes que outros\n\nTem noções sobre o conceito de recursão e sobre a abordagem de dividir e conquistar",
+    "__v": 0
+  }
+]

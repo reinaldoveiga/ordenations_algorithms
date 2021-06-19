@@ -40,7 +40,7 @@ function routes() {
         <Stack.Screen
           name="LevelSelection"
           component={LevelSelection}
-          options={{title: 'Escolha das Missões'}}
+          options={{title: 'Escolha de Níveis'}}
         />
 
         <Stack.Screen

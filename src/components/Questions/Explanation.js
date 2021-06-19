@@ -14,7 +14,7 @@ const explanation = props => {
       <ChoiceButtonAlternative
         step={step}
         correct
-        text="Próxima Explicação"
+        text="Próximo"
         
         onPress={() => setSteps(step + 1)}
       />

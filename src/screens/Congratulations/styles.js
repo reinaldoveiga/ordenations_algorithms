@@ -22,17 +22,17 @@ const styles = StyleSheet.create({
     fontFamily: 'Poppins-Bold',
   },
   textEnd: {
-    flex: 3,
+    flex: 4,
     textAlign: 'center',
     color: colors.textColorSecondary,
     fontSize: metrics.screenWidth * 0.09,
     fontFamily: 'Poppins-Bold',
   },
   textAlternative: {
-    flex: 10,
+    flex: 12,
     textAlign: 'center',
     color: colors.textColorSecondary,
-    fontSize: metrics.screenWidth * 0.05,
+    fontSize: metrics.screenWidth * 0.04,
     fontFamily: 'Poppins-Bold',
   },
   textButton: {

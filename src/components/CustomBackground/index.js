@@ -1,5 +1,5 @@
 import React from 'react';
-import {View, Text, FlatList} from 'react-native';
+import {View, FlatList} from 'react-native';
 
 import PropTypes from 'prop-types';
 
@@ -17,11 +17,11 @@ const CustomBackground = props => {
       onEndReachedThreshold={0.1}
       data={content}
       horizontal
-      renderItem={({item, index}) => (
+      renderItem={({item}) => (
         <View style={styles.listContainer}>
           <View style={styles.content}>{item}</View>
           <View style={styles.footer}>
-            <Text style={styles.textCont}>{index + 1}</Text>
+            
           </View>
         </View>
       )}
