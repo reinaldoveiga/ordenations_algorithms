@@ -32,7 +32,7 @@ const styles = StyleSheet.create({
     flex: 12,
     textAlign: 'center',
     color: colors.textColorSecondary,
-    fontSize: metrics.screenWidth * 0.04,
+    fontSize: metrics.screenWidth * 0.045,
     fontFamily: 'Poppins-Bold',
   },
   textButton: {

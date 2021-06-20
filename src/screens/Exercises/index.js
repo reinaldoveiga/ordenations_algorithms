@@ -47,7 +47,7 @@ export default function Exercises({navigation}) {
 
   const imagens = {
     //imagens level 1
-    l1q1: require('../../assets/images/Level1/books.png'),
+    l1q1: require('../../assets/images/Level1/books.jpg'),
     
     //imagens level 2
     l2q1: require('../../assets/images/Level2/tela2-n2.png'),
@@ -72,9 +72,9 @@ export default function Exercises({navigation}) {
     l3q14: require('../../assets/images/Level3/tela15-n3.png'),
 
     //imagens level 4
-    l4q1: require('../../assets/images/Level4/dicionario.png'),
-    l4q2: require('../../assets/images/Level4/listaDuplicata.png'),
-    l4q3: require('../../assets/images/Level4/programando.png'),
+    l4q1: require('../../assets/images/Level4/dicionario.jpg'),
+    l4q2: require('../../assets/images/Level4/listaDuplicada.png'),
+    l4q3: require('../../assets/images/Level4/programando.jpg'),
     l4q4: require('../../assets/images/Level4/tela10-n4.png'),
     l4q5: require('../../assets/images/Level4/tela12-n4.png')
     
@@ -87,7 +87,7 @@ export default function Exercises({navigation}) {
     //vídeo level 3
     l3q15: require('../../assets/videos/Level3/quicksort.mp4'),
 
-    //video level 4
+    //vídeo level 4
     l4q6: require('../../assets/videos/Level4/comparacao.mp4')
 
   };
